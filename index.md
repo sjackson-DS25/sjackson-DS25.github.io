@@ -2,13 +2,11 @@
 
 ![](https://user-images.githubusercontent.com/36738165/119046119-505f9980-b98a-11eb-9e40-7e4173db03f3.png)
 
-# Steve Johnson, CISSP, CVP       
+# Sonya Jackson PhD      
 
-## MSc. Cybersecurity Cohort May 2021
+## PGDip Data Science Cohort January 2025
 
 ---
-
-### About Me
 
 ### [Professional](https://github.com/crypto61/eportfolio/blob/master/Professional.md)
 
