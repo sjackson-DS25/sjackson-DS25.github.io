@@ -8,7 +8,7 @@
 
 ---
 
-### [Professional](https://github.com/crypto61/eportfolio/blob/master/Professional.md)
+### [Professional](https://sjackson-DS25.github.io/Professional.md)
 
 ### [Personal](https://github.com/crypto61/eportfolio/blob/master/Personal.md) 
 
