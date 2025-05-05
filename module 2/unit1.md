@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 # Data Activity 1
 
 ## Task
