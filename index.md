@@ -17,7 +17,7 @@
 
 *   [Induction Module](https://sjackson-ds25.github.io/induction)
 *   [Module 1 The Data Professional](https://github.com/crypto61/eportfolio/blob/master/LCYS.md)
-*   [Module 2 Numerical Analysis](https://sjackson-DS25.github.io/blob/master/module%202/unit1.md)
+*   [Module 2 Numerical Analysis](https://sjackson-DS25.github.io/module%202/unit1.html)
 *   [Module 3 Title](http://example.com/)
 *   [Module 4 Title](http://example.com/)
 *   [Module 5 Title](http://example.com/)
