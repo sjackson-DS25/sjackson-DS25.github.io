@@ -2,7 +2,7 @@
 
 ## Task
 
-Getting started with R; creating summary statistics based on Crime Survey for England and Wales, 2013-2014: Unrestricted Access Teaching Dataset.
+Getting started with R; creating summary statistics based on Crime Survey for England and Wales, 2013-2014
 
 ## Process and Findings
 
