@@ -1,4 +1,4 @@
-# Data Activity 1.2
+# Data Activity 1
 
 ## Task
 
