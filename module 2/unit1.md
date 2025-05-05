@@ -3,6 +3,8 @@ layout: minimal
 title: "Data Activity 1"
 ---
 
+### Data Acrivity 1
+
 ## Task
 
 Getting started with R; creating summary statistics based on Crime Survey for England and Wales, 2013-2014
