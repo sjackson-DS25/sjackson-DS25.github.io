@@ -53,3 +53,10 @@ The fact that the median is smaller than the mean suggests that the table is ske
 
 Learning
 Potential missing/NA values must be checked for (can be seen in the ‘summary’), and R needs to be told to ignore these. Using ‘Describe’ gives more information about the variation and ‘skewness’ of the data.
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
+    ⬅️ Back to Home
+  </a>
+</p>
+
