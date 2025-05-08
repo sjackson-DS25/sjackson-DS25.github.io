@@ -3,7 +3,7 @@ layout: minimal
 title: "Data Activity 2"
 ---
 
-# Data Acitivity 2
+# Data Activity 2
 
 ## Task
 
