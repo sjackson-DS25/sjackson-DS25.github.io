@@ -3,6 +3,8 @@ layout: minimal
 title: "Data Activity 2"
 ---
 
+# Data Acitivity 2
+
 ## Task
 
 Using the Crime Survey for England and Wales, 2013-2014: Unrestricted Access Teaching Dataset (see Unit 1), perform the following activities:
