@@ -11,4 +11,4 @@ In this module, We will aquire:
 ## 📚 Units
 
 - [Unit 1](https://sjackson-DS25.github.io/module%202/unit1.html)
-- [Unit 2](https://sjackson-DS25.github.io/module%202/unit2.html)
+- [Unit 2](https://sjackson-DS25.github.io/blob/master/module%202/unit2.html)
