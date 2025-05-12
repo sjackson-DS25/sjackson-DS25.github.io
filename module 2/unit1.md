@@ -53,7 +53,10 @@ The interpretation of a negative value is not clear from the data table. Does it
 
 The fact that the median is smaller than the mean suggests that the table is skewed to the right and that there could be some high-score outliers influencing the mean score. The min is -1.22 and the max is 4.01. The positive skew value confirms that the distribution is not normal and is right-skewed.
 
-Learning
+Learnings
+
+Repeating this task using 'import' command for file did not work, suggesting the headings, row/column titles are not retained.  with coding above the file must be 'read'
+
 Potential missing/NA values must be checked for (can be seen in the ‘summary’), and R needs to be told to ignore these. Using ‘Describe’ gives more information about the variation and ‘skewness’ of the data.
 
 <p style="text-align: center; margin-top: 2em;">
