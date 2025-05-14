@@ -28,7 +28,7 @@ On first attempt the resulting crime_75victim table had no observations, it was 
 
 ```r
 attributes(crime$agegrp7)
-attributess(data$bcsvictim)
+attributes(crime$bcsvictim)
 
 #or alternatively
 
@@ -41,6 +41,6 @@ val_labels(crime$bcsvictim)
 Not a victim of crime       Victim of crime 
                     0                     1 
 
-#create subset table now that numeric part of factor is understood.  
+#can now create subset table using numeric part of factor
 crime_75victim <- subset(crime, agegrp7 == 7 & bcsvictim == 1) 
 ```
