@@ -44,3 +44,9 @@ Not a victim of crime       Victim of crime
 #can now create subset table using numeric part of factor
 crime_75victim <- subset(crime, agegrp7 == 7 & bcsvictim == 1) 
 ```
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
+    ⬅️ Back to Home
+  </a>
+</p>
