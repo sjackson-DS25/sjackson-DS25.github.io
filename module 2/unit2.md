@@ -28,5 +28,18 @@ library(haven)
 > attr(my_data$bcsvictim, "labels")  # this command gives the labels associated with the factor.
 Not a victim of crime       Victim of crime 
                     0                     1
+# after trying various methods to get the 'labels' the following seems to be the most straightforward
 
+library(haven)
+crime <- read_sav("filelocations.sav")
+head(crime)
+table(crime$bcsvictim)
+   0    1 
+7460 1383
+
+crime$bcsvictim <- as_factor(crime$bcsvictim)
+table(crime$bcsvictim)
+
+Not a victim of crime       Victim of crime 
+                 7460                  1383 
 ```
