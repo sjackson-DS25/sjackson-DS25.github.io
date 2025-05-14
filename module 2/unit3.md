@@ -16,7 +16,7 @@ Using the Crime Survey for England and Wales, 2013-2014 (see Unit 1), perform th
 ```r
 library(haven)
 crime <- crime <- read_sav("filelocation.sav")
-crime$bcsvictim <- as_factor(crime$bcsvictim)
+crime$bcsvictim <- as_factor(crime$bcsvictim) # converts numeric factor to the factor label so can determine relevant group
 crime$agegrp7 <- as_factor(crime$agegrp7)
 table(crime$agegrp7) # to check output and age clasiifications
 crime_75victim <- subset(crime, agegrp7 == "75+" & bcsvictim == "Victim of crime")
