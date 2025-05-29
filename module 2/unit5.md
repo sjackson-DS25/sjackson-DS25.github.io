@@ -120,13 +120,13 @@ barplot(victim_counts,
         xlab = "Status",
         ylab = "Count") - #gives nice bar graph. #(image 4)
 
-
+```
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5figure1.png))
 ![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig2.png)
 ![Figure 3](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig3.png)  
 ![Figure 4](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig4.png)
   
-```
+
 ## Learnings
 
 remember to review data, check data type and possible values, e.g. for bar plot, the data was not initially present correctly as it was plooted on a continuous scale, and on correction of this, the values of 0 and 1 were given to the bars on the x-axis, these are unclear to the reader and should be converted to label of the factor for clarity. Ensuring that the data is in the correct format saves a lot of troubleshooting!
