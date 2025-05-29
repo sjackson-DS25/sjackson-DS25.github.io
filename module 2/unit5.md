@@ -24,14 +24,14 @@ If you’re using ‘ggplot2’: Add “Levels of anti-social behaviour in neigh
 library(haven)
 my_data <- crime <- read_sav("filelocation.sav")
 
-#using ggplot
+#using ggplot - image 1.
 
 library(ggplot2)
 
 ggplot(data = my_data, mapping = aes(x = "", y = antisocx )) + 
   geom_boxplot(fill = "yellow", outlier.colour = "red") +
   labs(title = "Levels of anti-social behaviour in neighbourhood 'antisoc'")+
-  theme_bw() #remove grey shading #image 1
+  theme_bw() #remove grey shading 
 
 #can simplify with 
 ggplot(my_data, aes("", antisocx )) + 
@@ -39,7 +39,7 @@ ggplot(my_data, aes("", antisocx )) +
   labs(title = "Levels of anti-social behaviour in neighbourhood 'antisoc'")+
   theme_bw() #remove grey shading
 
-# if not using ggplot the boxplot seems more straight forward
+# if not using ggplot the boxplot seems more straight forward - image 2
 boxplot(my_data$antisocx, main = "Levels of anti-social behaviour in neighbourhood 'antisoc'", 
         col = 'purple') #however no easy to colour outliers (?)
 
@@ -50,9 +50,11 @@ boxplot(my_data$antisocx, main = "Levels of anti-social behaviour in neighbourho
 stats <- boxplot.stats(my_data$antisocx)
 
 # Add outliers in red
-points(rep(1, length(stats$out)), stats$out, col = "blue", pch = 19) # image 2
+points(rep(1, length(stats$out)), stats$out, col = "blue", pch = 19) 
 
 # activity 2
+
+#ggplot - image 3
 
 ggplot(my_data, aes(bcsvictim)) +
        geom_bar(fill = "orange") + 
@@ -97,7 +99,8 @@ ggplot(my_data, aes(bcsvictim)) +
        y = "Count") +
   theme_bw()
 
-#barplot in r - remember to make a table (which i forgot the first time as seen below
+#barplot funtion - image 4
+#remember to tabulate the frequencies (which i forgot the first time as seen below
 
 barplot(my_data$bcsvictim, main = "victim of crime", col = "orange")
 
