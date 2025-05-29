@@ -123,7 +123,7 @@ barplot(victim_counts,
 ```
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5figure1.png))
 ![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig2.png)
-![Figure 3](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig_3.png)  
+![Figure 3](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig3.png)  
 ![Figure 4](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig4.png)
   
 
