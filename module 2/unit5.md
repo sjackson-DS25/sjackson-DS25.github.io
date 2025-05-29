@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: "Data Activity 3"
+title: "Data Activity 4"
 ---
 
 # Data Activity 4
@@ -121,7 +121,7 @@ barplot(victim_counts,
         ylab = "Count") - #gives nice bar graph. #(image 4)
 
 
-![Figure 1](r"C:\Users\alexa\Sonya\numerical analysis\unit5figure1.png")
+![Figure 1](images/unit5figure1.png)
   
 
   
