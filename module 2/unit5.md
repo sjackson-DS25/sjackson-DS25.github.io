@@ -24,7 +24,7 @@ If you’re using ‘ggplot2’: Add “Levels of anti-social behaviour in neigh
 library(haven)
 my_data <- crime <- read_sav("filelocation.sav")
 
-#using ggplot - image 1.
+#using ggplot - Figure 1.
 
 library(ggplot2)
 
@@ -39,7 +39,7 @@ ggplot(my_data, aes("", antisocx )) +
   labs(title = "Levels of anti-social behaviour in neighbourhood 'antisoc'")+
   theme_bw() #remove grey shading
 
-# if not using ggplot the boxplot seems more straight forward - image 2
+# if not using ggplot the boxplot seems more straight forward - Figure 2
 boxplot(my_data$antisocx, main = "Levels of anti-social behaviour in neighbourhood 'antisoc'", 
         col = 'purple') #however no easy to colour outliers (?)
 
@@ -54,7 +54,7 @@ points(rep(1, length(stats$out)), stats$out, col = "blue", pch = 19)
 
 # activity 2
 
-#ggplot - image 3
+#ggplot - Figure 3
 
 ggplot(my_data, aes(bcsvictim)) +
        geom_bar(fill = "orange") + 
@@ -99,7 +99,7 @@ ggplot(my_data, aes(bcsvictim)) +
        y = "Count") +
   theme_bw()
 
-#barplot funtion - image 4
+#barplot funtion - Figure 4
 #remember to tabulate the frequencies (which i forgot the first time as seen below
 
 barplot(my_data$bcsvictim, main = "victim of crime", col = "orange")
@@ -120,6 +120,8 @@ barplot(victim_counts,
         xlab = "Status",
         ylab = "Count") - #gives nice bar graph. #(image 4)
 
+
+![Figure 1](r"C:\Users\alexa\Sonya\numerical analysis\unit5figure1.png")
   
 
   
