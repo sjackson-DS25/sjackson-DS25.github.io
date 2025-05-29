@@ -31,7 +31,7 @@ library(ggplot2)
 ggplot(data = my_data, mapping = aes(x = "", y = antisocx )) + 
   geom_boxplot(fill = "yellow", outlier.colour = "red") +
   labs(title = "Levels of anti-social behaviour in neighbourhood 'antisoc'")+
-  theme_bw() #remove grey shading
+  theme_bw() #remove grey shading #image 1
 
 #can simplify with 
 ggplot(my_data, aes("", antisocx )) + 
@@ -50,7 +50,7 @@ boxplot(my_data$antisocx, main = "Levels of anti-social behaviour in neighbourho
 stats <- boxplot.stats(my_data$antisocx)
 
 # Add outliers in red
-points(rep(1, length(stats$out)), stats$out, col = "blue", pch = 19)
+points(rep(1, length(stats$out)), stats$out, col = "blue", pch = 19) # image 2
 
 # activity 2
 
@@ -96,9 +96,6 @@ ggplot(my_data, aes(bcsvictim)) +
        x = "Status",
        y = "Count") +
   theme_bw()
-  
-library(haven)
-my_data <- read_sav("C:/Users/alexa/Sonya/numerical analysis/UKDA-8011-spss/spss/spss24/crimedata  uk.sav")
 
 #barplot in r - remember to make a table (which i forgot the first time as seen below
 
@@ -109,13 +106,16 @@ barplot(my_data$bcsvictim, main = "victim of crime", col = "orange")
 victim_counts <- table(my_data$bcsvictim)
 barplot(victim_counts, main = "Victim of Crime", col = "orange")
 
-# works, but with 0 and 1 as a label.  update this and add x and y legends)
+# remember to convert 0/1 to labels (if not done)
+my_data$bcsvictim <- factor(my_data$bcsvictim, 
+                              levels = c(0, 1), 
+                              labels = c("Not a Victim", "Victim"))
 barplot(victim_counts,
         names.arg = c("Not a victim", "Victim"),
         main = "Victim of Crime",
         col = "orange",
         xlab = "Status",
-        ylab = "Count") - #gives nice bar graph.
+        ylab = "Count") - #gives nice bar graph. #(image 4)
 
   
 
@@ -123,7 +123,7 @@ barplot(victim_counts,
 ```
 ## Learnings
 
-remember to review data, check data type and possible values, e.g. for bar plot data was not initially present correctly as was plooted on a continuous scale and values of 0 and 1 were given to the bars ont he x-axis, these are unclear to the reader and should be converted to labelloed factors for clarity.  When not using ggplot, it was necessary to 
+remember to review data, check data type and possible values, e.g. for bar plot, the data was not initially present correctly as it was plooted on a continuous scale, and on correction of this, the values of 0 and 1 were given to the bars on the x-axis, these are unclear to the reader and should be converted to label of the factor for clarity. Ensuring that the data is in the correct format saves a lot of troubleshooting!
 
 
 ```
