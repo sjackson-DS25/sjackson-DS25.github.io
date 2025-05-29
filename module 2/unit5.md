@@ -121,10 +121,10 @@ barplot(victim_counts,
         ylab = "Count") - #gives nice bar graph. #(image 4)
 
 ```
-![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5figure1.png))
-![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig2.png)
-![Figure 3](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig3.png)  
-![Figure 4](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig4.png)
+![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
+![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig2b.png)
+![Figure 3](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig3b.png)  
+![Figure 4](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig4b.png)
   
 
 ## Learnings
