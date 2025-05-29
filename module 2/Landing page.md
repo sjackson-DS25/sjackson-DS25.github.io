@@ -11,3 +11,4 @@
 - [Unit 1](https://sjackson-DS25.github.io/module%202/unit1.html)
 - [Unit 2](https://sjackson-DS25.github.io/module%202/unit2.html)
 - [Unit 3](https://sjackson-DS25.github.io/module%202/unit3.html)
+- [Unit 5](https://sjackson-DS25.github.io/module%202/unit5.html)
