@@ -99,7 +99,7 @@ ggplot(my_data, aes(bcsvictim)) +
        y = "Count") +
   theme_bw()
 
-#barplot funtion - Figure 4
+#barplot funtion 
 #remember to tabulate the frequencies (which i forgot the first time as seen below
 
 barplot(my_data$bcsvictim, main = "victim of crime", col = "orange")
@@ -118,7 +118,7 @@ barplot(victim_counts,
         main = "Victim of Crime",
         col = "orange",
         xlab = "Status",
-        ylab = "Count") - #gives nice bar graph. #(image 4)
+        ylab = "Count") - #gives nice bar graph.
 
 ```
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
