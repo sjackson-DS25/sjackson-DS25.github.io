@@ -121,7 +121,7 @@ barplot(victim_counts,
         ylab = "Count") - #gives nice bar graph. #(image 4)
 
 
-![Figure 1](images/unit5figure1.png)
+![Figure 1]((https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/unit5figure1.png))
   
 
   
