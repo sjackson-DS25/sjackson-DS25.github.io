@@ -30,7 +30,8 @@ mean(health_data$income)
 #try to do all actions in single command
 colMeans(health_data[, c("sbp", "dbp", "income")], na.rm = TRUE)
 # this worked but was not necessaryily quicker!
-#the comma after the first square bracket indicates to select all rows (data[rows, columns]), remove na is used to ensure missing values don't effect result
+#the comma after the first square bracket indicates to select all rows (data[rows, columns])
+¤remove na (na.rm) is used to ensure missing values don't effect result
 
 > colMeans(health_data[, c("sbp", "dbp", "income")], na.rm = TRUE)
         sbp         dbp      income 
@@ -43,9 +44,23 @@ summary(health_data$income)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   52933   68637   86561   85194   99696  117210
 
-boxplot(health_data$income, main="income", col = "blue") # see figure 1
+boxplot(health_data$income, main="income", col = "blue") # Figure 1
+
+#or using ggplot (outlier not relevelant to this examnple but included for reference).  Figure 2
+ggplot(data = health_data, aes(x = "", y = income)) +
+  geom_boxplot(fill = "steelblue", outlier.colour = "red", outlier.shape = 16) +
+  labs(title = "Income Distribution", x = NULL, y = "Income") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold", margin = margin(b = 15)), #center title
+    axis.text.x = element_blank(),       # remove x-axis label text
+    axis.ticks.x = element_blank())       # remove x-axis ticks
+
 
 #Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
+#H0: there is no association between SBP and presence pectic ulcer
+#H1: there is an asspcoation between SBP and presence of peptic ulcer
+
 #run t-test
 t.test(sbp ~ pepticulcer, data = health_data, var.equal = TRUE)
 
@@ -63,11 +78,10 @@ mean in group Yes  mean in group No
 ```
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
 
+![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
 
-
-## Learnings
-
-remember to review data, check data type and possible values, e.g. for bar plot, the data was not initially present correctly as it was plooted on a continuous scale, and on correction of this, the values of 0 and 1 were given to the bars on the x-axis, these are unclear to the reader and should be converted to label of the factor for clarity. Ensuring that the data is in the correct format saves a lot of troubleshooting!
+## Findings
+P value is 0.203, as this value is >0.05 there is not enough evidence to reject H0, therefore there is not evidence to show an association between SBP and peptic ulcer.  
 
 
 ```
