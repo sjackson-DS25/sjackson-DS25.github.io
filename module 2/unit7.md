@@ -77,7 +77,7 @@ mean in group Yes  mean in group No
 
 ```
 ## Figure 1
-![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/module%202/dataactivity5figure1.png))
+![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/module%202/dataactivity5figure1.png)
 
 ## Figure 2
 ![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/dataactivity5figure2.png))
