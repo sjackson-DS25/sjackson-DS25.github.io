@@ -76,8 +76,10 @@ mean in group Yes  mean in group No
          131.3171          126.8639 
 
 ```
-![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/datactivity5figure1.png))
+## Figure 1
+![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/dataactivity5figure1.png))
 
+## Figure 2
 ![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/dataactivity5figure2.png))
 
 ## Findings
