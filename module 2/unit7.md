@@ -78,7 +78,7 @@ mean in group Yes  mean in group No
 ```
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
 
-![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
+![Figure 2](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/dataactivity5figure2.png))
 
 ## Findings
 P value is 0.203, as this value is >0.05 there is not enough evidence to reject H0, therefore there is not evidence to show an association between SBP and peptic ulcer.  
