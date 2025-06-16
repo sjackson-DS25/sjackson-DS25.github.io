@@ -14,3 +14,4 @@
 - [Unit 5](https://sjackson-DS25.github.io/module%202/unit5.html)
 - [Unit 7](https://sjackson-DS25.github.io/module%202/unit7.html)
 - [Unit 8](https://sjackson-DS25.github.io/module%202/unit8.html)
+- [Unit 9](https://sjackson-DS25.github.io/module%202/unit9.html)
