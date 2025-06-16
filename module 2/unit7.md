@@ -3,7 +3,7 @@ layout: minimal
 title: "Data Activity 5"
 ---
 
-# Data Activity 5
+# Data Activity 5 / Unit 7
 
 ## Task
 
@@ -15,7 +15,7 @@ Run a suitable hypothesis test to see if there is any association between systol
 
 ```r
 library(haven)
-health_data <- read_sav("C:\\Users\\alexa\\Downloads\\Health Data.sav")
+health_data <- read_sav("path location")
 mean(health_data$sbp)
 mean(health_data$dbp)
 mean(health_data$income)
