@@ -8,10 +8,10 @@
 
 ## 📚 Units
 
-- [Unit 1](https://sjackson-DS25.github.io/module%202/unit1.html)
-- [Unit 2](https://sjackson-DS25.github.io/module%202/unit2.html)
-- [Unit 3](https://sjackson-DS25.github.io/module%202/unit3.html)
-- [Unit 5](https://sjackson-DS25.github.io/module%202/unit5.html)
-- [Unit 7](https://sjackson-DS25.github.io/module%202/unit7.html)
-- [Unit 8](https://sjackson-DS25.github.io/module%202/unit8.html)
-- [Unit 9](https://sjackson-DS25.github.io/module%202/unit9.html)
+- [Unit 1/Data Activity 1](https://sjackson-DS25.github.io/module%202/unit1.html)
+- [Unit 2/Data Activity 2](https://sjackson-DS25.github.io/module%202/unit2.html)
+- [Unit 3/Data Activity 3](https://sjackson-DS25.github.io/module%202/unit3.html)
+- [Unit 5/Data Activity 4](https://sjackson-DS25.github.io/module%202/unit5.html)
+- [Unit 7/Data Activity 5](https://sjackson-DS25.github.io/module%202/unit7.html)
+- [Unit 8/Data Activity 6](https://sjackson-DS25.github.io/module%202/unit8.html)
+- [Unit 9/Data Activity 7](https://sjackson-DS25.github.io/module%202/unit9.html)
