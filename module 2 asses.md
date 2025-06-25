@@ -295,7 +295,7 @@ alternative hypothesis: true location shift is not equal to 0
 #What is the correlation between whether a person drinks nowadays,
 #total household income, age at last birthday and gender?
 
-# total income and drinks nowadays, chi-squared as two categorical variables
+# drinks nowadays and income , chi-squared as two categorical variables
 table <- table(healthdata$totinc, healthdata$dnnow)
 table  # results include do not know and refuse to answer, need to drop these levels. 
 attr(healthdata$totinc, "labels") # showwhat codes refer to, need to drop 96 and 97
@@ -324,16 +324,16 @@ sample estimates:
 
 #drinking and gender
 #two categorical values chi-squared test
-table <- table(healthdata$Sex, healthdata$dnnow) #droping levels was not required (to manage NA responses for children)
+table <- table(healthdata$Sex, healthdata$dnnow) 
 chisqres <- chisq.test(table)
 > chisqres
 
-	Pearsons Chi-squared test with Yates' continuity correction
+	Pearsons Chi-squared test with Yates continuity correction
 
 data:  table
 X-squared = 114.15, df = 1, p-value < 2.2e-16
 
-#total household income and Age at last birthday
+#income and Age at last birthday
 #categorical and contiuous variable, use Spearman's correlation
 > cor.test(healthdata_clean$totinc, healthdata_clean$Age, method = "spearman")
 
@@ -346,8 +346,9 @@ sample estimates:
        rho 
 -0.2058734 
 
+
 #income and gender - two categorical, chi-squared 
-table <- table(healthdata_clean$totinc, healthdata_clean$Sex) #droping levels was not required (to manage NA responses for children)
+table <- table(healthdata_clean$totinc, healthdata_clean$Sex) 
 table
 chisqres <- chisq.test(table)
 chisqres
