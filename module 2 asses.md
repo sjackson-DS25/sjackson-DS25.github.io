@@ -121,3 +121,177 @@ ggplot(data = healthdata, aes(x = "", y = Age)) +
   labs(title = "Age", x = NULL, y = "Years") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
+
+
+#stats
+
+# 3a, which gender drinks more?
+# Categorical variable and continuous variable. use independent t test or mann whitney
+#test if alcohol drank is normally distributed
+qqnorm(healthdata$totalwu) #data does not look normal
+library(nortest) # data set was too large to run Sharipo-Wilk so use Anderson-Darling
+> ad.test(healthdata$totalwu) #confirmed not normal 
+
+	Anderson-Darling normality test
+
+data:  healthdata$totalwu
+A = 935.5, p-value < 2.2e-16
+
+#therefore use non-parametic test; mann whitney u test 
+> wilcox.test(totalwu~Sex, healthdata)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  totalwu by Sex
+W = 11224018, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+#P<0.05 therefore a significant difference, but which gender drinks more?
+#visualise with a box plot?
+boxplot(totalwu~Sex, healthdata)
+library(labelled)
+val_labels(healthdata$Sex)
+#boxplot but remove outliers as the data was compressed due to these
+boxplot(totalwu~Sex, healthdata,
+        main = "Units Per Week by Gender",
+        xlab = "Gender",
+        ylab = "units per week",
+        col = c("blue", "red"),
+        outline = FALSE)
+#conclude that males drink signficiantly more.
+
+3b
+
+#test which region drinks the most alcohol
+#already shown that units per week is not normally distributed, need to check means of 3+ groups, Kruskal Wallis test
+> kruskal.test(totalwu~gor1,healthdata) #P< 0.05 therefore there is a significant difference in total units per region
+
+	Kruskal-Wallis rank sum test
+
+data:  totalwu by gor1
+Kruskal-Wallis chi-squared = 81.722, df = 8, p-value = 2.199e-14
+
+# but which region drinks the most? need to do a post hoc analysis
+library(dunn.test)
+healthdata$totalwu_num <- as.numeric(healthdata$totalwu)
+dunn.test(healthdata$totalwu_num, healthdata$gor1, method = "bonferroni")
+                           Comparison of x by group                            
+                                 (Bonferroni)                                  
+Col Mean-|
+Row Mean |          1          2          3          4          5          6
+---------+------------------------------------------------------------------
+       2 |   2.373457
+         |     0.3172
+         |
+       3 |   2.302689   0.039008
+         |     0.3833     1.0000
+         |
+       4 |   0.597156  -1.759432  -1.713791
+         |     1.0000     1.0000     1.0000
+         |
+       5 |   2.086747  -0.200290  -0.227308   1.494336
+         |     0.6644     1.0000     1.0000     1.0000
+         |
+       6 |   2.339014   0.050604   0.010470   1.744243   0.240699
+         |     0.3480     1.0000     1.0000     1.0000     1.0000
+         |
+       7 |   6.631198   4.832598   4.540354   6.109648   4.770516   4.591121
+         |    0.0000*    0.0000*    0.0001*    0.0000*    0.0000*    0.0001*
+         |
+       8 |   0.553627  -2.191854  -2.098200  -0.124031  -1.845799  -2.142915
+         |     1.0000     0.5110     0.6460     1.0000     1.0000     0.5782
+         |
+       9 |  -0.418847  -2.989218  -2.876995  -1.054853  -2.648381  -2.924436
+         |     1.0000     0.0503     0.0723     1.0000     0.1456     0.0621
+Col Mean-|
+Row Mean |          7          8
+---------+----------------------
+       8 |  -7.201977
+         |    0.0000*
+         |
+       9 |  -7.480808  -1.081051
+         |    0.0000*     1.0000
+
+alpha = 0.05
+Reject Ho if p <= alpha/2
+
+val_labels(healthdata$gor1) #1,2,3,4,5,6 are all different from 7
+> val_labels(healthdata$gor1)
+              North East               North West 
+                       1                        2 
+Yorkshire and The Humber            East Midlands 
+                       3                        4 
+           West Midlands          East of England 
+                       5                        6 
+                  London               South East 
+                       7                        8 
+              South West                    Wales 
+                       9                       10 
+                Scotland 
+                      11 
+
+boxplot(totalwu~gor1, healthdata,
+        main = "Units Per Week by Region",
+        xlab = "region",
+        ylab = "units per week",
+        col = "orange",
+        outline = FALSE,
+        horizontal = TRUE)
+
+medianunits <- tapply(healthdata$totalwu, healthdata$gor1, median, na.rm = TRUE)
+medianunits
+
+3c
+# is there a difference betwen males/females and valid heigh or valid weight
+# data is continuously distributed - check normality 
+qqnorm(healthdata$htval) # the line is skewed so will check with shapiro-wilk test
+shapiro.test(healthdata$htval) #the sample size is too large 
+library(nortest)
+> ad.test(healthdata$htval)
+
+	Anderson-Darling normality test
+
+data:  healthdata$htval
+A = 398.24, p-value < 2.2e-16
+
+#P-value > 0.05 therefore reject H0, and conclude that the data is not normally distributed
+
+#repeat for valid weight data 
+qqnorm(healthdata$wtval) # plot looks skewed, run andersson-darling test for normality (due to large sample size)
+> ad.test(healthdata$wtval) #P-value > 0.05 therefore reject H0, and conclude that the data is not normally distributed
+	Anderson-Darling normality test
+
+data:  healthdata$wtval
+A = 100.8, p-value < 2.2e-16
+
+# need non parametric tests to answer these questions
+#Mann whitney U test carried out as non-parametric data and two independent groups.
+> wilcox.test(htval~Sex, healthdata)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  htval by Sex
+W = 14713021, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+# P < 0.05 therefore reject H0.  There is a statistically significant difference in the heights 
+#between males and females (Mann-Whitney U test, P <0,05)
+
+#difference in weight for males/females?
+#Mann whitney U test carried out as non-parametric data and two independent groups. 
+> wilcox.test(wtval~Sex, healthdata)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  wtval by Sex
+W = 12449400, p-value < 2.2e-16
+alternative hypothesis: true location shift is not equal to 0
+
+# P < 0.05 therefore reject H0.  There is a statistically significant difference in weight 
+#between males and females
+
+
+
+
+
+
