@@ -37,6 +37,7 @@ healthdata$sex <- as_factor(healthdata$Sex)
 [7] <NA>                       NVQ1/CSE other grade equiv
 
 # % divorced or separated
+library(labelled)
 healthdata$marstatc <- as_factor(healthdata$marstatc)
 > table(droplevels(healthdata$marstatc))
 
@@ -54,10 +55,10 @@ Civil partnership including spontaneous answers
                                             693 
                                      Cohabitees 
                                             979 
-> 594/10617
-[1] 0.05594801
-> 224/10617
-[1] 0.02109824
+valideresponses <- na.omit(healthdata$marstatc) #remove NA responses
+length(valideresponses) #8608 responses that are not NA
+594/8608 # = 0.069
+224/8608 # = 0.026
 
 #graph drinks alcohol
 
