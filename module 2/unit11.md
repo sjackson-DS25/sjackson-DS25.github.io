@@ -7,7 +7,6 @@ title: "Data Activity 5"
 
 ## Task
 
-Using the Crime Survey for England and Wales, 2013-2014, perform the following activities:
 Using the Health_Data, please perform the following functions in R:
 
 Perform simple linear regression analysis to find the population regression equation to predict the diastolic BP by systolic BP.
