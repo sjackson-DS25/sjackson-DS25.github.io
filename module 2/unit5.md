@@ -133,7 +133,7 @@ barplot(victim_counts,
 
 ## Learnings
 
-remember to review data, check data type and possible values, e.g. for bar plot, the data was not initially present correctly as it was plooted on a continuous scale, and on correction of this, the values of 0 and 1 were given to the bars on the x-axis, these are unclear to the reader and should be converted to label of the factor for clarity. Ensuring that the data is in the correct format saves a lot of troubleshooting!
+remember to review data, check data type and possible values, e.g. for bar plot, the data was not initially present correctly as it was plotted on a continuous scale, and on correction of this, the values of 0 and 1 were given to the bars on the x-axis, these are unclear to the reader and should be converted to label of the factor for clarity. Ensuring that the data is in the correct format saves a lot of troubleshooting!
 
 
 ```
