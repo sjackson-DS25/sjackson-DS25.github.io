@@ -76,7 +76,8 @@ The p value is <2.2e-16
 #therefore we can reject H0 and accept H1.
 #there is a highly significant relationship between SBP and DBP 
 
-
+## Figure 1
+![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
 
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
