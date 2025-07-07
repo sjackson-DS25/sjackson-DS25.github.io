@@ -67,7 +67,7 @@ data:  dbp by diabetes
 W = 3804.5, p-value = 0.7999
 alternative hypothesis: true location shift is not equal to 0
 
-#result P = 0.799 therefore there is no evidence to reject H0, DBP is the same amongst doabetic and non-diabetic patients
+#result P = 0.799 therefore there is no evidence to reject H0, DBP is the same amongst diabetic and non-diabetic patients
 
 #Find out whether systolic BP is different across occupational group
 #ocupation has multiple categories, therefore use kruskal wallice test
