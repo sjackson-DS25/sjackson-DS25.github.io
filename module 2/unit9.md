@@ -75,7 +75,7 @@ To answer the question of which age group is most/least likely to be a victim of
 
 Based on the below analysis, the youngest age group were most likely to report being a victim of crime and the oldest age group were least likely to report being a victim of crime.
 
-This highlights the importance of understanding the data format and the analyses undertaken.  Additionally it may be considered that certain groups may be more liekly to respond to the survey if they have been a victim of crime and we should always be aware of confounding factors.  
+This highlights the importance of understanding the data format and the analyses undertaken.  Additionally it may be considered that certain groups may be more likely to respond to the survey if they have been a victim of crime and we should always be aware of confounding factors.  
 
 ```r
 round(prop.table(table(bcsvictim_factor, agegrp7_factor),1)*100,2)
