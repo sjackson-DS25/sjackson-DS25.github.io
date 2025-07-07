@@ -15,3 +15,4 @@
 - [Unit 7/Data Activity 5](https://sjackson-DS25.github.io/module%202/unit7.html)
 - [Unit 8/Data Activity 6](https://sjackson-DS25.github.io/module%202/unit8.html)
 - [Unit 9/Data Activity 7](https://sjackson-DS25.github.io/module%202/unit9.html)
+- [Unit 11/Data Activity 8](https://sjackson-DS25.github.io/module%202/unit11.html)
