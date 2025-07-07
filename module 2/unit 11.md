@@ -71,10 +71,13 @@ F-statistic: 527.2 on 1 and 208 DF,  p-value: < 2.2e-16
 
 ```
 # Findings and Learnings
-The interpretation is that both the intercept and the predictor variable (sbp) are highly significant
-The p value is <2.2e-16 
-#therefore we can reject H0 and accept H1.
-#there is a highly significant relationship between SBP and DBP 
+The interpretation is that both the intercept and the predictor variable (sbp) are highly significant.
+
+The p value is <2.2e-16.
+
+Therefore we can reject H0 and accept H1.
+
+There is a highly significant relationship between SBP and DBP.
 
 ## Figure 1
 ![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/module%202/unit%2011%20figure%201.jpeg)
