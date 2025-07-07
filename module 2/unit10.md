@@ -68,7 +68,6 @@ Therefore we can reject H0 and accept H1.
 There is a highly significant relationship between SBP and DBP.
 
 ## Figure 1
-![Figure 1](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/module%202/unit%2010%20figure%201.jpeg)
 
 
 
