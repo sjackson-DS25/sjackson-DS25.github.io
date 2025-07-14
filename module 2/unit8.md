@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: "Data Activity 5"
+title: "Data Activity 6"
 ---
 
 # Data Activity 6 / Unit 8
