@@ -18,15 +18,15 @@ How accurate are your estimates likely to be?
 
 ## Process 
 
-1 -  3/6 faces are even (2, 4 and 6) theregore probability is 3/6 = 1/2
+1 -  3/6 faces are even (2, 4 and 6) therefore probability is even numbers / total possibilities = 3/6 = 1/2 = 0.5
 <br><br>
   
-2a - Probability that a random chosen UK man who dies will die from CHD;
+2a - Probability that a random chosen UK man who dies will die from CHD is number of male CHD deaths / total male deaths;
 
    64 473 / 288 322 = 0.22,  **therefore probability is 0.22**
 <br><br>
 
-2b -  Probability that a random chosen UK woman who dies will die from CHD;
+2b -  Probability that a random chosen UK woman who dies will die from CHD is number of female CHD deaths / total female deaths;;
 
    53 003 / 318 463 = 0.17. **therefore probability is 0.17**
 <br><br>
