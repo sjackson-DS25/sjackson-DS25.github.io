@@ -17,3 +17,4 @@
 - [Unit 9/Data Activity 7](https://sjackson-DS25.github.io/module%202/unit9.html)
 - [Unit 10/Data Activity 8](https://sjackson-DS25.github.io/module%202/unit10.html)
 - [Unit 11/Data Activity 9](https://sjackson-DS25.github.io/module%202/unit11.html)
+- [Unit 12/Bayes Probability Activity ](https://sjackson-DS25.github.io/module%202/unit12.html)
