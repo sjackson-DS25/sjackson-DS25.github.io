@@ -22,11 +22,13 @@ How accurate are your estimates likely to be?
   
 2a.  Probability that a random chosen UK man who dies will die from CHD;
 
-64 473 / 288 322 = 0.22, therefore probability is 0.22
+64 473 / 288 322 = 0.22,  **therefore probability is 0.22**
 
 2b  Probability that a random chosen UK woman who dies will die from CHD;
 
-53
+53 003 / 318 463 = 0.17. **therefore probability is 0.17**
+
+The historic numbers given come from a large sample and therefore we may expexct this to be a good estimate, however the data was from a single year and it would be useful to see if this is in keeping with other years.  Additionally there could be other factors in play for future years that are not accounted for (medical developments, changes in smoking levels, more serious flu season or other pandemic).  It should also be considered that health status or cause of death may differ between regions of the UK.  
 
 
 
