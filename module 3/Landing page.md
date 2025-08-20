@@ -8,4 +8,4 @@
 
 ## 📚 Units
 
-- [Web scraping - unit 3]/https://sjackson-DS25.github.io/module%203/webscrapingexercise_unit3.html)
+- [Web scraping - unit 3](/https://sjackson-DS25.github.io/module%203/webscrapingexercise_unit3.html)
