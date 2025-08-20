@@ -3,7 +3,7 @@ layout: minimal
 title: "Web Scraping"
 ---
 
-# Web scrpaing activity / unit 3
+# Web scraping activity / unit 3
 
 ## Task
 
