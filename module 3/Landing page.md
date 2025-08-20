@@ -8,6 +8,6 @@
 
 ## 📚 Activities
 
-[Web Scraping - Unit 3](https://sjackson-DS25.github.io/module%203/webscrapingunit3.html)
+- [Web Scraping - Unit 3](https://sjackson-DS25.github.io/module%203/webscrapingunit3.html)
 
 - [Unit 1/Data Activity 1](https://sjackson-DS25.github.io/module%202/unit1.html)
