@@ -6,6 +6,6 @@
 - **Develop** effective teamwork skills in a virtual professional setting, adopting real life perspectives on team roles and organisation.
 
 
-## 📚 Units
+## 📚 Activities
 
 - [Web Scraping - Unit 3](https://sjackson-DS25.github.io/module%203/webscrapingexercise_unit3.html)
