@@ -7,7 +7,7 @@ title: "Web Scraping"
 
 ## Task
 
-The aim of the task was to scrape a website to idetify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken Requests and the Beautifulsoup4 modules
+The aim of the task was to scrape a website to idetify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules
 
 ## Process and Findings
 
