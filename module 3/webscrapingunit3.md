@@ -98,7 +98,7 @@ with open("legal_jobs.json", "r", encoding="utf-8") as f:
 ```
 ## Learnings
 
-Need to preexamine pages to understand the location, variability and availability of data and ensure that coding for web scraping is suitably comprehensive; be aware of the potential incosistencies and variability of the data; be cognisant of the limitations of the code and how complete the readout is.  
+It is importnant to pre-examine the data to understand the location, variability and availability of this data and ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability oin the presentation and structure of the data; be cognisant of the limitations of the code and how complete the readout is.  
 
 
 <p style="text-align: center; margin-top: 2em;">
