@@ -57,8 +57,10 @@ Each row is unique and each value is atomic.
 
 ## 2nd Normal Form (2NF)
 
-must be in 1NF and each column that is not primary key must be dependent on the primary key
+Must be in 1NF and each column that is not primary key must be dependent on the primary key
+
 Primary key: `Student Number` 
+
 Attributes that depend only on `Course Name` are moved to separate tables.
 
 ### Student Details
@@ -105,11 +107,11 @@ Attributes that depend only on `Course Name` are moved to separate tables.
 
 ## 3rd Normal Form (3NF)
 
-must be in 2NF and every column not part of primary key is only dependent on the primary key
+Must be in 2NF and every column not part of primary key is only dependent on the primary key
 
 Split Exam Boards and Teachers into separate tables (both may cover multiple subjects), link teacher to course and EBID to course
 
-### Student Details
+### Student Details (same as for 2NF)
 
 | Student Number | Student Name  | Exam Score | Support | Date of Birth |
 |----------------|---------------|------------|---------|---------------|
@@ -149,45 +151,25 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 | C4       | Biology          |
 | C5       | Music            |
 
-### StudentCourses
+### Table 5: Link Teachers to Courses
 
-| Student Number | CourseID |
-|----------------|----------|
-| 1001           | C1       |
-| 1001           | C2       |
-| 1001           | C3       |
-| 1002           | C2       |
-| 1002           | C4       |
-| 1002           | C5       |
-| 1003           | C1       |
-| 1003           | C2       |
-| 1003           | C3       |
-| 1004           | C2       |
-| 1004           | C3       |
-| 1004           | C4       |
-| 1005           | C1       |
-| 1005           | C2       |
-| 1005           | C5       |
+| Course Name       | TID |
+|------------------|-----|
+| Computer Science | T1  |
+| Maths            | T2  |
+| Physics          | T3  |
+| Biology          | T4  |
+| Music            | T5  |
 
-### CourseTeachers
+### Table 6: Link Exam Boards to Courses
 
-| CourseID | TID |
-|----------|-----|
-| C1       | T1  |
-| C2       | T2  |
-| C3       | T3  |
-| C4       | T4  |
-| C5       | T5  |
-
-### CourseExamBoards
-
-| CourseID | EBID |
-|----------|------|
-| C1       | EB1  |
-| C2       | EB2  |
-| C3       | EB3  |
-| C4       | EB4  |
-| C5       | EB5  |
+| Course Name       | EBID |
+|------------------|------|
+| Computer Science | EB1  |
+| Maths            | EB2  |
+| Physics          | EB3  |
+| Biology          | EB4  |
+| Music            | EB5  |
 
 ---
 
