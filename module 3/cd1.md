@@ -19,7 +19,7 @@ With regards to cybersecurity, the utilisation of multiple fog gateways and node
 
 In conclusion, the rapid growth of IoT devices presents significant opportunity for business development and environmental sustainability across multiple fields. However the quality of the data is crucial for the generation of unbiased, accurate data analytics and ensuring data privacy requirements are met must remain a top priority.
 
- 
+## References
 
 Balbir (2024). What role does cloud computing have with edge AI. Available at: https://medium.com/infiniticube/what-role-does-cloud-computing-have-with-edge-ai-2989d2b381eb (Accessed: 10 September 2025).
 
