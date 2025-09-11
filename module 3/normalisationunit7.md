@@ -1,18 +1,177 @@
 
-### Normalisation Task - Unit 7
+# Unit 7 – Normalisation Task
 
-Task: normalise the below table to 3rd Normal Form (3NF) showing each step of the process
+## Task
+Normalise the below table to **3rd Normal Form (3NF)** showing each step of the process.
 
-<div style="width:100%; height:600px; border:1px solid #ccc;">
-    <iframe 
-        src="https://sjackson-DS25.github.io/module%203/unit%207%20normalisation%20task.pdf" 
-        width="100%" 
-        height="100%"
-        style="border:none;">
-    </iframe>
-</div>
+---
 
+## Original Table
 
+| Student Number | Student Name | Exam Score | Support | Date of Birth | Course Name       | Exam Boards | Teacher Name |
+|----------------|--------------|------------|---------|---------------|------------------|-------------|--------------|
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 | Computer Science | BCS     | Mr Jones   |
+|      |              |    |     |            | Maths             | EdExcel | Ms Parker |
+|      |              |    |     |            | Physics           | OCR     | Mr Peters |
+| 1002 | Sally Davies | 55 | Yes | 1999-10-02 | Maths             | AQA     | Ms Parker |
+|      |              |    |     |            | Biology           | WJEC    | Mrs Patel |
+|      |              |    |     |            | Music             | AQA     | Ms Daniels |
+| 1003 | Mark Hanmill | 90 | No  | 1995-06-05 | Computer Science  | BCS     | Mr Jones   |
+|      |              |    |     |            | Maths             | EdExcel | Ms Parker |
+|      |              |    |     |            | Physics           | OCR     | Mr Peters |
+| 1004 | Anas Ali     | 70 | No  | 1980-08-03 | Maths             | AQA     | Ms Parker |
+|      |              |    |     |            | Physics           | OCR     | Mr Peters |
+|      |              |    |     |            | Biology           | WJEC    | Mrs Patel |
+| 1005 | Cheuk Yin    | 45 | Yes | 2002-05-01 | Computer Science  | BCS     | Mr Jones   |
+|      |              |    |     |            | Maths             | EdExcel | Ms Parker |
+|      |              |    |     |            | Music             | AQA     | Ms Daniels |
 
+---
 
-[Normalisation Task - Unit 7](https://sjackson-DS25.github.io/module%203/unit%207%20normalisation%20task.pdf)
+## 1st Normal Form (1NF)
+Each row is unique and each value is atomic.
+
+| Student Number | Student Name | Exam Score | Support | Date of Birth | Course Name       | Exam Boards | Teacher Name |
+|----------------|--------------|------------|---------|---------------|------------------|-------------|--------------|
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 | Computer Science | BCS     | Mr Jones   |
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 | Maths             | EdExcel | Ms Parker |
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 | Physics           | OCR     | Mr Peters |
+| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 | Maths             | AQA     | Ms Parker |
+| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 | Biology           | WJEC    | Mrs Patel |
+| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 | Music             | AQA     | Ms Daniels |
+| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 | Computer Science  | BCS     | Mr Jones   |
+| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 | Maths             | EdExcel | Ms Parker |
+| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 | Physics           | OCR     | Mr Peters |
+| 1004 | Anas Ali      | 70 | No  | 1980-08-03 | Maths             | AQA     | Ms Parker |
+| 1004 | Anas Ali      | 70 | No  | 1980-08-03 | Physics           | OCR     | Mr Peters |
+| 1004 | Anas Ali      | 70 | No  | 1980-08-03 | Biology           | WJEC    | Mrs Patel |
+| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 | Computer Science  | BCS     | Mr Jones   |
+| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 | Maths             | EdExcel | Ms Parker |
+| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 | Music             | AQA     | Ms Daniels |
+
+---
+
+## 2nd Normal Form (2NF)
+Must be in 1NF, and each non-key column must depend on the primary key.  
+Primary key: `Student Number`.
+
+- Course name, exam boards, and teachers are not dependent on student number.  
+- Therefore, create new tables.
+
+### Student Details
+| Student Number | Student Name   | Exam Score | Support | Date of Birth |
+|----------------|----------------|------------|---------|---------------|
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 |
+| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 |
+| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 |
+| 1004 | Anas Ali      | 70 | No  | 1980-08-03 |
+| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 |
+
+### Course Details
+| Course Name       | Exam Boards | Teacher Name |
+|------------------|-------------|--------------|
+| Computer Science | BCS         | Mr Jones     |
+| Maths            | EdExcel     | Ms Parker    |
+| Physics          | OCR         | Mr Peters    |
+| Biology          | WJEC        | Mrs Patel    |
+| Music            | AQA         | Ms Daniels   |
+
+### Courses Taken
+| Student Number | Course Name       |
+|----------------|------------------|
+| 1001 | Computer Science |
+| 1001 | Maths            |
+| 1001 | Physics          |
+| 1002 | Maths            |
+| 1002 | Biology          |
+| 1002 | Music            |
+| 1003 | Computer Science |
+| 1003 | Maths            |
+| 1003 | Physics          |
+| 1004 | Maths            |
+| 1004 | Physics          |
+| 1004 | Biology          |
+| 1005 | Computer Science |
+| 1005 | Maths            |
+| 1005 | Music            |
+
+---
+
+## 3rd Normal Form (3NF)
+Must be in 2NF, and every non-key column must depend only on the primary key.
+
+### Table 1: Student Details
+(Same as 2NF)
+
+### Student Details
+| Student Number | Student Name   | Exam Score | Support | Date of Birth |
+|----------------|----------------|------------|---------|---------------|
+| 1001 | Bob Baker     | 78 | No  | 2001-08-25 |
+| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 |
+| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 |
+| 1004 | Anas Ali      | 70 | No  | 1980-08-03 |
+| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 |
+
+Course details table should be divided as exam boards may cover different subjects and teachers may teach more than one subject
+
+### Table 2: Exam Boards
+| EBID | Exam Board |
+|------|------------|
+| EB1  | BCS        |
+| EB2  | EdExcel    |
+| EB3  | OCR        |
+| EB4  | WJEC       |
+| EB5  | AQA        |
+
+### Table 3: Teachers
+| TID | Teacher    |
+|-----|------------|
+| T1  | Mr Jones   |
+| T2  | Ms Parker  |
+| T3  | Mr Peters  |
+| T4  | Mrs Patel  |
+| T5  | Ms Daniels |
+
+### Table 4: Courses Taken
+| Student Number | Course Name       |
+|----------------|------------------|
+| 1001 | Computer Science |
+| 1001 | Maths            |
+| 1001 | Physics          |
+| 1002 | Maths            |
+| 1002 | Biology          |
+| 1002 | Music            |
+| 1003 | Computer Science |
+| 1003 | Maths            |
+| 1003 | Physics          |
+| 1004 | Maths            |
+| 1004 | Physics          |
+| 1004 | Biology          |
+| 1005 | Computer Science |
+| 1005 | Maths            |
+| 1005 | Music            |
+
+### Table 5: Link Teachers to Courses
+| Course Name       | TID |
+|------------------|-----|
+| Computer Science | T1  |
+| Maths            | T2  |
+| Physics          | T3  |
+| Biology          | T4  |
+| Music            | T5  |
+
+### Table 6: Link Exam Boards to Courses
+| Course Name       | EBID |
+|------------------|------|
+| Computer Science | EB1  |
+| Maths            | EB2  |
+| Physics          | EB3  |
+| Biology          | EB4  |
+| Music            | EB5  |
+
+---
+
+## Observations / Learnings
+- I found that it was not always straightforward to determine what the primary key(s) are — this dictates how the tables are separated.  This likely comes with experience. 
+- As we progress through the normal forms, I reflected that the tables become harder for humans to read and inter-relate  by eye, however it is clear that this reduces redundancies in terms of data storage and will limit potential for data conflicts or inaccuracies. 
+- Entering the data into tables requires care: one mistake early on propagates across all later stages.
