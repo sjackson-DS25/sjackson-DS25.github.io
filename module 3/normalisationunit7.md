@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: "Web Scraping"
+title: "Normalisation Task"
 ---
 
 # Unit 7 – Normalisation Task
@@ -106,10 +106,8 @@ Therefore, create new tables.
 ## 3rd Normal Form (3NF)
 Must be in 2NF, and every non-key column must depend only on the primary key.
 
-### Table 1: Student Details
-(Same as 2NF)
+### Table 1: Student Details (Same as 2NF)
 
-### Student Details
 | Student Number | Student Name   | Exam Score | Support | Date of Birth |
 |----------------|----------------|------------|---------|---------------|
 | 1001 | Bob Baker     | 78 | No  | 2001-08-25 |
