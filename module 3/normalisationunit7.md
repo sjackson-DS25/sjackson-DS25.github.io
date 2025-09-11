@@ -151,7 +151,7 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 | C4       | Biology          |
 | C5       | Music            |
 
-### Table 5: Link Teachers to Courses
+### Link Teachers to Courses
 
 | Course Name       | TID |
 |------------------|-----|
@@ -161,7 +161,7 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 | Biology          | T4  |
 | Music            | T5  |
 
-### Table 6: Link Exam Boards to Courses
+### Link Exam Boards to Courses
 
 | Course Name       | EBID |
 |------------------|------|
