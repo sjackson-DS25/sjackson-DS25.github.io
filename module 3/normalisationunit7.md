@@ -1,3 +1,7 @@
+---
+layout: minimal
+title: "Web Scraping"
+---
 
 # Unit 7 – Normalisation Task
 
