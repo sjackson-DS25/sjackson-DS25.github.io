@@ -6,7 +6,7 @@ title: "Collaborative Discussions"
 # Collaborative Discussion 1 (Units 1-3)
 
 
-### The Data Collection Process
+## The Data Collection Process
 
 The discussion focused on the IoT with the remit to discuss the opportunities, limitations, risks and challenges associated with large-scale data collection.  
 
