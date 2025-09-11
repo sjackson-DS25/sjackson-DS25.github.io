@@ -59,8 +59,8 @@ Each row is unique and each value is atomic.
 Must be in 1NF, and each non-key column must depend on the primary key.  
 Primary key: `Student Number`.
 
-- Course name, exam boards, and teachers are not dependent on student number.  
-- Therefore, create new tables.
+Course name, exam boards, and teachers are not dependent on student number.  
+Therefore, create new tables.
 
 ### Student Details
 | Student Number | Student Name   | Exam Score | Support | Date of Birth |
