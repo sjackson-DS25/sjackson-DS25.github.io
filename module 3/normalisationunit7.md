@@ -56,6 +56,7 @@ Each row is unique and each value is atomic.
 ---
 
 ## 2nd Normal Form (2NF)
+
 Must be in 1NF, and each non-key column must depend on the primary key.  
 Primary key: `Student Number`.
 
@@ -63,41 +64,42 @@ Course name, exam boards, and teachers are not dependent on student number.
 Therefore, create new tables.
 
 ### Student Details
-| Student Number | Student Name   | Exam Score | Support | Date of Birth |
-|----------------|----------------|------------|---------|---------------|
-| 1001 | Bob Baker     | 78 | No  | 2001-08-25 |
-| 1002 | Sally Davies  | 55 | Yes | 1999-10-02 |
-| 1003 | Mark Hanmill  | 90 | No  | 1995-06-05 |
-| 1004 | Anas Ali      | 70 | No  | 1980-08-03 |
-| 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 |
+| Student Number | Student Name  | Exam Score | Support | Date of Birth |
+|----------------|---------------|------------|---------|---------------|
+| 1001           | Bob Baker     | 78         | No      | 2001-08-25    |
+| 1002           | Sally Davies  | 55         | Yes     | 1999-10-02    |
+| 1003           | Mark Hanmill  | 90         | No      | 1995-06-05    |
+| 1004           | Anas Ali      | 70         | No      | 1980-08-03    |
+| 1005           | Cheuk Yin     | 45         | Yes     | 2002-05-01    |
 
 ### Course Details
 | Course Name       | Exam Boards | Teacher Name |
-|------------------|-------------|--------------|
-| Computer Science | BCS         | Mr Jones     |
-| Maths            | EdExcel     | Ms Parker    |
-| Physics          | OCR         | Mr Peters    |
-| Biology          | WJEC        | Mrs Patel    |
-| Music            | AQA         | Ms Daniels   |
+|-------------------|-------------|--------------|
+| Computer Science  | BCS         | Mr Jones     |
+| Maths             | EdExcel     | Ms Parker    |
+| Physics           | OCR         | Mr Peters    |
+| Biology           | WJEC        | Mrs Patel    |
+| Music             | AQA         | Ms Daniels   |
 
 ### Courses Taken
 | Student Number | Course Name       |
 |----------------|------------------|
-| 1001 | Computer Science |
-| 1001 | Maths            |
-| 1001 | Physics          |
-| 1002 | Maths            |
-| 1002 | Biology          |
-| 1002 | Music            |
-| 1003 | Computer Science |
-| 1003 | Maths            |
-| 1003 | Physics          |
-| 1004 | Maths            |
-| 1004 | Physics          |
-| 1004 | Biology          |
-| 1005 | Computer Science |
-| 1005 | Maths            |
-| 1005 | Music            |
+| 1001           | Computer Science |
+| 1001           | Maths            |
+| 1001           | Physics          |
+| 1002           | Maths            |
+| 1002           | Biology          |
+| 1002           | Music            |
+| 1003           | Computer Science |
+| 1003           | Maths            |
+| 1003           | Physics          |
+| 1004           | Maths            |
+| 1004           | Physics          |
+| 1004           | Biology          |
+| 1005           | Computer Science |
+| 1005           | Maths            |
+| 1005           | Music            |
+
 
 ---
 
