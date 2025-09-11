@@ -63,6 +63,8 @@ Primary key: `Student Number`.
 Course name, exam boards, and teachers are not dependent on student number.  
 Therefore, create new tables.
 
+---
+
 ### Student Details
 | Student Number | Student Name  | Exam Score | Support | Date of Birth |
 |----------------|---------------|------------|---------|---------------|
@@ -116,7 +118,11 @@ Must be in 2NF, and every non-key column must depend only on the primary key.
 | 1004 | Anas Ali      | 70 | No  | 1980-08-03 |
 | 1005 | Cheuk Yin     | 45 | Yes | 2002-05-01 |
 
+---
+
 Course details table should be divided as exam boards may cover different subjects and teachers may teach more than one subject
+
+---
 
 ### Table 2: Exam Boards
 | EBID | Exam Board |
