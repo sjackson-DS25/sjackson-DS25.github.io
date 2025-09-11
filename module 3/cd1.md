@@ -1,12 +1,19 @@
+---
+layout: minimal
+title: "Collaborative Discussions"
+---
 
-Critically evaluate the rationale behind the Internet of Things (IOT), in the context of the article by Huxley et al (2020), highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.
+# Collaborative Discussion 1 (Units 1-3)
 
+## The Data Collection Process
+
+The discussion focused on the IoT with the remit to discuss the opportunities, limitations, risks and challenges associated with large-scale data collection.  
 
 In my initial post I discussed the rapid growth of IoT and how analytics of the resulting data creates opportunities for business optimisation across multiple fields.  I highlighted the importance of effective data wrangling and data privacy, and discussed how undertaking pre-processing within an edge or fog environment may address potential data privacy and latency issues.
 
-My colleagues’ posts further highlighted the importance of optimising data processing and the potential risks of edge or fog computing.  Dean flagged the potential for pre-processing steps to filter out ‘anomalies’ that may include meaningful data.  This led me to consider the potential for edge-based pre-processing to introduce bias, this may be mitigated at least in part by utilisation of a hybrid edge and cloud approach where raw data is forwarded to the cloud as required in order to refine AI models and improve edge device performance (Balbir, 2024). 
+My colleagues’ posts further highlighted the importance of optimising data processing and the potential risks of edge or fog computing.  Colleagues flagged the potential for pre-processing steps to filter out ‘anomalies’ that may include meaningful data.  Reflective on this comment I additionally considered the potential for edge-based pre-processing to introduce bias, and further reading on this led to the suggetsion in my summary post that the issues of inappropriate filtering may be  mitigated at least in part by utilisation of a hybrid edge and cloud approach where raw data is forwarded to the cloud as required in order to refine AI models and improve edge device performance (Balbir, 2024). 
 
-Monique highlighted the risks of fog/edge computing in relation to data privacy and cybersecurity.  In relation to data privacy, processing of data at the edge may reduce the need to upload sensitive data to cloud servers (Balbir, 2024), however ensuring compliance with regards to personal data collection and processing on multiple devices remains a challenge (EmbedUR, 2025). 
+Colleagues also highlighted potential risks of fog/edge computing in relation to data privacy and cybersecurity.  In relation to data privacy, processing of data at the edge may reduce the need to upload sensitive data to cloud servers (Balbir, 2024), however ensuring compliance with regards to personal data collection and processing on multiple devices remains a challenge (EmbedUR, 2025). 
 
 With regards to cybersecurity, the utilisation of multiple fog gateways and nodes will increase the potential attack surface, furthermore due to branched edge architecture, a single compromised node may propagate to others, leading to a cascading security breach (EmbedUR, 2025; Palla, 2022)
 
