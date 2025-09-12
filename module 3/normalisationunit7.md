@@ -121,6 +121,36 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 | 1004           | Anas Ali      | 70         | No      | 1980-08-03    |
 | 1005           | Cheuk Yin     | 45         | Yes     | 2002-05-01    |
 
+### Courses
+
+| CourseID | Course Name      |
+|----------|-----------------|
+| C1       | Computer Science |
+| C2       | Maths            |
+| C3       | Physics          |
+| C4       | Biology          |
+| C5       | Music            |
+
+### Courses Taken
+
+| Student Number | Course Name       |
+|----------------|------------------|
+| 1001           | C1               |
+| 1001           | C2               |
+| 1001           | C3               |
+| 1002           | C2               |
+| 1002           | C4               |
+| 1002           | C5               |
+| 1003           | C1               |
+| 1003           | C2               |
+| 1003           | C3               |
+| 1004           | C2               |
+| 1004           | C3               |
+| 1004           | C4               |
+| 1005           | C1               |
+| 1005           | C2               |
+| 1005           | C5               |
+
 ### Exam Boards
 
 | EBID | Exam Board |
@@ -141,15 +171,6 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 | T4  | Mrs Patel    |
 | T5  | Ms Daniels   |
 
-### Courses
-
-| CourseID | Course Name      |
-|----------|-----------------|
-| C1       | Computer Science |
-| C2       | Maths            |
-| C3       | Physics          |
-| C4       | Biology          |
-| C5       | Music            |
 
 ### Link Teachers to Courses
 
