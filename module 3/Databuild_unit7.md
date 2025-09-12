@@ -1,3 +1,7 @@
+---
+layout: minimal
+title: "Normalisation Task"
+---
 
 # Unit 7 Database Example
 
