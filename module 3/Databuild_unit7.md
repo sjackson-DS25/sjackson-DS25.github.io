@@ -17,6 +17,12 @@ title: "Normalisation Task"
 The database was built in SQL using the script below.  
 Referential integrity was then checked by running test queries to test that foreign key constraints and uniqueness constraints were correctly enforced.  
 
+
+The original tables from the **normalisation task (Unit 7)** can be viewed here:  
+
+[Normalisation Task Tables - Unit 7](https://sjackson-ds25.github.io/module%203/Databuild_unit7.html)
+
+
 ---
 
 ## Reflections / Learnings
