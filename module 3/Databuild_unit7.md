@@ -3,36 +3,47 @@ layout: minimal
 title: "Normalisation Task"
 ---
 
+
 # Unit 7 Database Example
 
-Task: 
-- Build a relational database system (based on the unit 7 normalisation task), with linked tables.
+## Task
+
+- Build a relational database system (based on the Unit 7 normalisation task), with linked tables  
 - Demonstrate knowledge of:
   - Primary keys  
   - Secondary (foreign) keys  
 - Test the database to ensure referential integrity  
 
-Th database was built in SQL using the script below.
-Referential integrity was then checked by running test queries to test that foreign key constraints and uniqueness constraints were correctly enforced
+The database was built in SQL using the script below.  
+Referential integrity was then checked by running test queries to test that foreign key constraints and uniqueness constraints were correctly enforced.  
 
-Reflections/learnings
+---
 
-This task took me some time to complete as I needed to develop the script in SQL, in which I previously had very minimal experience.  I did find however that SQL is a 'easy to understand' programming language and in builing my experiencce in SQL, and undertaking this task which involved producing several table, appropriate commands are fairly easily learnt and recalled.  I made slight updates to the table from the normalisation task, specifically I updated course names in the 'courses_studied, course_teachers and course_examboards' with relevent ID's for simplicity.  
-The checks carried out (see end of script) all behaved as expected suggesting that referencial integirty is enforced as required, although the checks were non-exhaustive and additional checks could be undertaken if time allowed to increase confidence in this. 
-I realised that  careful planning with regards to data entry and table formatting, together with accurate identification of the primary and foreign key(s) is vital, and this is something I will continue to study in order to gain further experience and confidence.  I additionally reflected that on building larger, more complex databases there could be multiple potential points of error in data entry, and therefore carefull design and set up of the database is crucial.  
+## Reflections / Learnings
+
+This task took me some time to complete as I needed to develop the script in SQL, in which I previously had very minimal experience. However, I found SQL to be an “easy to understand” programming language and in building my experience in SQL through this task, which involved producing several tables and writing appropriate commands, I realised that commands are fairly easy to learn and recalled with practice.  
+
+I made slight updates from the normalisation task, specifically replacing course names with relevant IDs in the `courses_studied`, `course_teachers`, and `course_examboards` tables for simplicity.  
+
+The checks carried out (see end of script) all behaved as expected, suggesting that referential integrity is enforced correctly. These checks were non-exhaustive, and additional ones could be undertaken to increase confidence further.  
+
+I realised that careful planning of data entry and table structure, together with accurate identification of primary and foreign keys, is vital. This is something I will continue to study in order to gain further experience and confidence. I also reflected that when building larger, more complex databases there are many potential points of error in data entry, and therefore careful design and setup of the database is crucial.  
+
+---
+
+## SQL Script
 
 ```sql
 -- Create the database
 CREATE DATABASE unit7_db;
 USE unit7_db;
 
--- create tables as per normalisation task (unit 7)
-
+-- Create tables as per normalisation task (unit 7)
 CREATE TABLE Students (
     student_no INT PRIMARY KEY,
     student_name VARCHAR(50),
     exam_score INT,
-    support VARCHAR(3), 
+    support VARCHAR(3),
     date_of_birth DATE
 );
 
@@ -55,7 +66,7 @@ CREATE TABLE courses_studied (
     student_no INT,
     course_id VARCHAR(5),
     PRIMARY KEY (student_no, course_id),
-    FOREIGN KEY (student_no) REFERENCES students(student_no),
+    FOREIGN KEY (student_no) REFERENCES Students(student_no),
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
 
@@ -75,7 +86,7 @@ CREATE TABLE Course_ExamBoards (
     FOREIGN KEY (ebid) REFERENCES ExamBoards(ebid)
 );
 
--- populate tables with the data (see unit 7 normalisation task)
+-- Insert sample data
 INSERT INTO Students VALUES
 (1001,'Bob Baker',78,'No','2001-08-25'),
 (1002,'Sally Davies',55,'Yes','1999-10-02'),
@@ -135,39 +146,39 @@ INSERT INTO courses_studied VALUES
 (1005,'C2'),
 (1005,'C5');
 
--- ==================================================
--- Test referential integrity
--- ==================================================
+```
 
--- 1. Try to add a new exam board in 'course_examboards' table
-INSERT INTO course_examboards (course_id, ebid) VALUES ('C1', 'EB6');
+## Integrity Tests
 
--- Expected error:
--- Error Code: 1452. Cannot add or update a child row: 
--- a foreign key constraint fails (`unit7_db`.`course_examboards`, 
--- CONSTRAINT `course_examboards_ibfk_2` FOREIGN KEY (`ebid`) 
--- REFERENCES `examboards` (`ebid`))
+### To check referential integrity and constraints, the following tests were performed:
 
--- 2. Try deleting a teacher from teachers
-DELETE FROM Teachers WHERE tid = 'T1'; 
+---
 
--- Expected error:
--- Error Code: 1451. Cannot delete or update a parent row: 
--- a foreign key constraint fails (`unit7_db`.`course_teachers`, 
--- CONSTRAINT `course_teachers_ibfk_2` FOREIGN KEY (`tid`) 
--- REFERENCES `teachers` (`tid`))
+## SQL Script
 
--- 3. Check uniqueness constraints by re-adding a student/course combo
+```sql
+-- Try to add a new exam board in Course_ExamBoards table
+
+INSERT INTO Course_ExamBoards (course_id, ebid) VALUES ('C1', 'EB6');
+
+Error Code: 1452. Cannot add or update a child row:
+a foreign key constraint fails
+
+-- Try deleting a teacher who is assigned to a course
+DELETE FROM Teachers WHERE tid = 'T1';
+
+Error Code: 1451. Cannot delete or update a parent row:
+a foreign key constraint fails
+
+-- Try inserting a duplicate student-course entry
 INSERT INTO courses_studied (student_no, course_id) VALUES (1001, 'C1');
 
--- Expected error:
--- Error Code: 1062. Duplicate entry '1001-C1' for key 'courses_studied.PRIMARY'
+Error Code: 1062. Duplicate entry '1001-C1' for key 'courses_studied.PRIMARY'
 
--- 4. Try deleting a student who is still referenced
-DELETE FROM Students WHERE student_no = 1001; 
+-- Try deleting a student who is linked to courses
+DELETE FROM Students WHERE student_no = 1001;
 
--- Expected error:
--- Error Code: 1451. Cannot delete or update a parent row: 
--- a foreign key constraint fails (`unit7_db`.`courses_studied`, 
--- CONSTRAINT `courses_studied_ibfk_1` FOREIGN KEY (`student_no`) 
--- REFERENCES `students` (`student_no`))
+Error Code: 1451. Cannot delete or update a parent row:
+a foreign key constraint fails
+
+```
