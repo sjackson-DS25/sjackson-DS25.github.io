@@ -23,7 +23,7 @@
 *   [Module 5 Title](http://example.com/)
 
 ---
-https://github.com/sjackson-DS25/sjackson-DS25.github.io/tree/master/module%203
+
 ---
 
 Page template forked from [evanca](https://github.com/evanca/quick-portfolio)
