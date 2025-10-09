@@ -8,7 +8,7 @@
 
 ## 📚 Activities
 
-- [Collaborative Discussion Summaries](https://sjackson-DS25.github.io/module%203/cd1.html)
+- [Collaborative Discussion Summaries](https://sjackson-DS25.github.io/module%203/colab_discussions.html)
 - [Web Scraping - Unit 3](https://sjackson-DS25.github.io/module%203/webscrapingunit3.html)
 - [Normalisation Task - Unit 7](https://sjackson-DS25.github.io/module%203/normalisationunit7.html)
 - [Data Build Task - Unit 7](https://sjackson-DS25.github.io/module%203/Databuild_unit7.html)
