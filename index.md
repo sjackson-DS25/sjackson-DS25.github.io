@@ -18,7 +18,7 @@
 *   [Induction Module](https://sjackson-ds25.github.io/induction)
 *   [Module 1 The Data Professional](http://example.com/)
 *   [Module 2 Numerical Analysis](https://sjackson-DS25.github.io/module%202/Landing%20page.html)
-*   [Module 3 Deciphering Big Data](https://sjackson-DS25.github.io/module%203/Landing%20page.html)
+*   [Module 3 Deciphering Big Data](https://sjackson-DS25.github.io/Deciphering%20Big%20Data%20July%202025/Landing%20page.html)
 *   [Module 4 Title](http://example.com/)
 *   [Module 5 Title](http://example.com/)
 
