@@ -11,7 +11,7 @@ The aim of the task was to scrape a website to identify 'data scientist' jobs ad
 
 ## Refelctions and Learnings
 
-It is important to thoroughly pre-examine the data to understand the location, structures, variability and availability of this data and then to ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability in the presentation and structure of the data; variations in how data is recorded can have a big inpact on your results which could potentially lead to skewed conclusions or missing information, for example data scientist jobs may be advertised as "data science, data scientist, bioinformatics", therefore it is importnant to be cognisant of the limitations of the code and how complete the readout is. 
+It is important to thoroughly pre-examine the data to understand the location, structure, variability and availability of the data of interest, and then to ensure that the coding for web scraping is suitably comprehensive.  Be aware of potential inconsistencies and variability in the presentation and structure of the data; variations in how data is recorded can have a big inpact on results, which could potentially lead to skewed conclusions or missing information.  For example, data scientist jobs may be advertised as "data science, data scientist, bioinformatics" amongst others, therefore it is importnant to be cognisant of the limitations of the code and how complete the readout is. 
 
 ## Process and Findings
 
