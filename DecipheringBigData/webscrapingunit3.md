@@ -9,6 +9,10 @@ title: "Web Scraping"
 
 The aim of the task was to scrape a website to idetify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules
 
+## Refelctions and Learnings
+
+It is important to pre-examine the data to understand the location, variability and availability of this data and ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability in the presentation and structure of the data; be cognisant of the limitations of the code and how complete the readout is. 
+
 ## Process and Findings
 
 ```r
@@ -96,9 +100,7 @@ with open("legal_jobs.json", "r", encoding="utf-8") as f:
 {'title': 'Legal executive', 'company': 'Hartman PLC', 'location': 'N/A'}
 
 ```
-## Learnings
-
-It is importnant to pre-examine the data to understand the location, variability and availability of this data and ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability oin the presentation and structure of the data; be cognisant of the limitations of the code and how complete the readout is.  
+ 
 
 
 <p style="text-align: center; margin-top: 2em;">
