@@ -8,7 +8,7 @@
 
 ## 📚 Activities
 
-- [Collaborative Discussion Summaries](https://sjackson-DS25.github.io/DecipheringBigData/colab_discussions.html)
+- [Collaborative Discussion Summaries](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussions.html)
 - [Web Scraping - Unit 3](https://sjackson-DS25.github.io/DecipheringBigData/webscrapingunit3.html)
 - [Normalisation Task - Unit 7](https://sjackson-DS25.github.io/DecipheringBigData/normalisationunit7.html)
 - [Data Build Task - Unit 7](https://sjackson-DS25.github.io/DecipheringBigData/Databuild_unit7.html)
