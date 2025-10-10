@@ -7,11 +7,11 @@ title: "Web Scraping"
 
 ## Task
 
-The aim of the task was to scrape a website to idetify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules
+The aim of the task was to scrape a website to identify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules
 
 ## Refelctions and Learnings
 
-It is important to pre-examine the data to understand the location, variability and availability of this data and ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability in the presentation and structure of the data; be cognisant of the limitations of the code and how complete the readout is. 
+It is important to thoroughly pre-examine the data to understand the location, structures, variability and availability of this data and then to ensure that the coding for web scraping is suitably comprehensive; be aware of the potential inconsistencies and variability in the presentation and structure of the data; variations in how data is recorded can have a big inpact on your results which could potentially lead to skewed conclusions or missing information, for example data scientist jobs may be advertised as "data science, data scientist, bioinformatics", therefore it is importnant to be cognisant of the limitations of the code and how complete the readout is. 
 
 ## Process and Findings
 
