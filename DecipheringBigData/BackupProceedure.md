@@ -1,7 +1,3 @@
-layout: minimal
-title: "Normalisation Task"
----
-
 
 #  Unit 11 - Backup Proceedure
 
