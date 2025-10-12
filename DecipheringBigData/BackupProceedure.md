@@ -11,7 +11,9 @@ In 100 - 150 words, critically evaluate the disaster recovery system called the 
 ## Critical Evaluation of the Grandfather-Father-Son (GFS) Backup Strategy
 
 The Grandfather-Father-Son (GFS) system provides a tiered, storage efficient backup system by undertaking Son (daily), Father (weekly) and Grandfather (monthly) backups on a rotating schedule. The benefits of this method include comprehensive data protection, rapid recovery of recent data, long-term historical data preservation, regulatory compliance and risk mitigation (Nheu, 2024).
+
 This tiered structure balances quick data recovery with long-term archival storage, and the rotational backup strategy optimises storage management by allowing Grandfather backups to be retained within cost efficient storage solutions (Casas, 2025) whilst Son and Father backups are retained for comparatively shorter periods (Casas, 2025) 
+
 The GFS system reduces complications associated with incremental backups by eliminating the need to restore from a full backup plus every incremental backup to reach the current state.  It additionally mitigates the risk of a corrupted backup being propagated throughout an extended backup chain.  Compared to differential backups methods, the GFS approach optimises storage requirements. (Gibraltar Solutions, 2024) 
 
 ## References
