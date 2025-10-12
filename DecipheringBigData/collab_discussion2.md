@@ -23,7 +23,7 @@ In summary, adherence to ICO guidelines alongside ISO27001 compliance provides o
 
  
 
-References
+## References
 
 Amtivo. (2025) ISO 27001 and GDPR: How Do They Work Together? Available at: https://amtivo.com/uk/standards/iso-27001/insights/iso-27001-gdpr-working-together/ (Accessed: 8 October 2025).
 
