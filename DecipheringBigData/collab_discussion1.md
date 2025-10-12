@@ -1,10 +1,10 @@
 ---
 layout: minimal
-title: "Collaborative Discussions"
+title: "Collaborative Discussion 1"
 ---
 
 
-# Collaborative Discussions
+# Collaborative Discussion 1
 
 
 ## The Data Collection Process (units 1-3)
