@@ -34,7 +34,7 @@ This task took me some time to complete as I needed to develop the script in SQL
 
 I made slight updates from the normalisation task, specifically replacing course names with relevant IDs in the `courses_studied`, `course_teachers`, and `course_examboards` tables for simplicity.  
 
-The checks carried out (see end of script) all behaved as expected, suggesting that referential integrity is enforced correctly. These checks were non-exhaustive, and additional ones could be undertaken to increase confidence further.  
+The checks carried out (see 'Integrity Tests' at end of script) all behaved as expected, suggesting that referential integrity is enforced correctly. These checks were non-exhaustive, and additional ones could be undertaken to increase confidence further.  
 
 I realised that careful planning of data entry and table structure, together with accurate identification of primary and foreign keys, is vital. This is something I will continue to study in order to gain further experience and confidence. I also reflected that when building larger, more complex databases there are many potential points of error in data entry, and therefore careful design and setup of the database is crucial.  
 
