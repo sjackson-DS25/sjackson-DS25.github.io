@@ -8,8 +8,8 @@
 
 ## 📚 Activities
 
-- [Collaborative Discussion 1 - The Data Collection Process](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
-- [Collaborative Discussion 2 - Comparing Compliance Laws](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion2.html)
+- [Collaborative Discussion 1; The Data Collection Process - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
+- [Collaborative Discussion 2; Comparing Compliance Laws - Units 8-10](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion2.html)
 - [Web Scraping - Unit 3](https://sjackson-DS25.github.io/DecipheringBigData/webscrapingunit3.html)
 - [Normalisation Task - Unit 7](https://sjackson-DS25.github.io/DecipheringBigData/normalisationunit7.html)
 - [Data Build Task - Unit 7](https://sjackson-DS25.github.io/DecipheringBigData/Databuild_unit7.html)
