@@ -15,3 +15,29 @@ We proactively formed a team developed an initial idea for the business area ove
 
 
 
+Minutes for Team ;eeting 1.
+------
+Meeting 19:30 CET 19th August 2025
+Attendees Dean Carey; Sonya Jackson
+
+Attendees ideas and points for discussion were shared prior to the meeting; including plan for potential client profile, key considerations and options/comparisons of potential databases
+
+Data items/entities were discussed  These may include e.g. patient ID, trial site ID, patient records; trial drug ID; lab results; wearables; images; medical event ID (amongst others).  Consider that the report will focus on selected key fields only rather than an exhaustive list. Action Sonya to draft 'logical design' and draw up ERD to illustrate these and relationships/associations.  
+
+Methods of data validations/cleaning  it was agreed that these need to be auditable.  Various data cleaning methods may be utilised including machine learning approaches and query firing, standardisation of data is important. Action; Sonya to draft initial text capturing key points and share with Dean for further development.
+
+Database model design; it was decided that  a relational database management system could suit client needs .  The importance of database security/encryption was discussed, database must be scalable.  Action: Dean to draft outline of potential DBMS and comparison of SQL based options.
+
+
+Actions all: initial drafts will be shared during unit 4; 
+Next meeting (prior to 25th Aug) will be used to build on and refine drafts, and discuss next steps.  
+------
+
+As discussed, I will aim to draft my actions in the next two days and share with you for comment and we can decide at the end of this week if it's useful to have a teams call to discuss next steps?
+
+Cheers, 
+Sonya.  
+
+
+Minutes for Teem Meeting 2.
+
