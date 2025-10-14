@@ -32,6 +32,7 @@ Palla, K. (2022) Fog computing: Security benefits and risks, The National CIO Re
 
 <hr>
 
-<a href="https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/DecipheringBigData/Landing%20page.md" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+<a href="https://sjackson-ds25.github.io/DecipheringBigData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Landing Page</a>
 
 <hr>
+
