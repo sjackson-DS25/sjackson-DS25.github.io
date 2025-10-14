@@ -9,6 +9,11 @@ title: "Collaborative Discussion 2"
 
 ## Comparing Compliance Laws (units 8-10)
 
+For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GSPD and I was less informed abnout the ICO I decided to conentrate on comparing UK GDPR to ICO.  
+
+
+
+
 
 My initial post discussed the UK GDPR and the role of the Information Commissioner’s Office (ICO) as an independent regulator for compliance. The post focused on requirements for securing of personal data, described the overarching requirement of UK GDPR that “appropriate technical and organisational measures to ensure a level of security that is appropriate to the risk are implemented” (United Kingdom, 2018, Art. 32 ) and described the specific checklist advice that ICO provides for businesses in order to ensure that the data security requirements are met.
 
