@@ -89,3 +89,9 @@ The deployment of these specifications helps ensure that the QRadar DSM API is r
 - OWASP (2023) OWASP API Security Top 10 – 2023. Available at: https://owasp.org/API-Security  
 - NIST (2023) NIST SP 800-204C: Implementation of DevSecOps for a Microservices-Based Application Using Service Mesh. National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.SP.800-204C
 
+
+<hr>
+
+<a href="https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/DecipheringBigData/Landing%20page.md" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+
+<hr>
