@@ -9,13 +9,19 @@ title: "Development Team Project - Meeting notes"
 
 ## Comments and Learnings
 
-To ensure good time managment, both myself and my colleague Dean Carey were keen to get the work underway prior to unit 6 as we recognised that especially with team tasks,it is important to account for extra time to enable all team members to have the opportunity to review and comment, and to enable sufficient opportunity to work on ht e draft
+To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individuals schedules
 
-We proactively formed a team developed an initial idea for the business area over email and then scheduled a first meeting to brainstorm ideas and assign tasks.  We were careful to document clear actions and timelines (see meeting one notes)
+We brainstormed inital ideas for the client profile and potential solutions via email and  then scheduled a meeting to refine these and assign tasks.  We were careful to document clear actions, expectations and timelines (minutes for team meeting 1)
+
+Having reached out to additional colleagues and forming a larger team, the initial draft was shared and a second meeting set up to answer team members questions, discuss progress and further ideas and realign tasks and deadlines (minutes for meeting team meeting 2}
+
+We met as a team for a third time to resolve any outstanding comments from the reviews and to finalise the document before submission.
+
+This activity aligns with learning outcomes 1,2 and  4
 
 
 
-Minutes for Team ;eeting 1.
+Minutes for Team meeting 1.
 ------
 Meeting 19:30 CET 19th August 2025
 Attendees Dean Carey; Sonya Jackson
@@ -41,6 +47,21 @@ Sonya.
 
 Minutes for Teem Meeting 2.
 
+Date 23rd August 2025
+Attendees; Sonya Jackson, Dean Carey, Monique Mizzi
+
+Notes:
+
+The team discussed the current draft in line with the instructions for the task; It was proposed that we can build on the description of entities and database build; Action Sonya review and expand on entities; Dean add further comments/suggestions re data base build
+
+Action: all - review document as a whole adding comments/edit as needed 
+
+Action: Monique and Sonya, review lecturecast in unit 6 to ensure document aligned with expectations.   
+
+As discussed, Monique and I will aim to have a final draft for team review by 1st Sept.
+
+Next steps
+Team to meet again w/c 1st September to finalise
 
 <hr>
 
