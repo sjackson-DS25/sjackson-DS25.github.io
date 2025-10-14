@@ -8,15 +8,15 @@ title: "Development Team Project - Meeting notes"
 
 This page captures the meeting minutes from the team discussions whilst working on the Development Team Project: Project Report
 
-To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that, especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individual schedules
+To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individual schedules
 
-We brainstormed inital ideas for the client profile and potential solutions via email and  then scheduled a meeting to refine these and assign tasks.  We were careful to document clear actions, expectations and timelines (minutes for team meeting 1)
+We brainstormed inital ideas for the client profile and potential solutions via email, and held a scheduled meeting to refine the brainstorming document and to assign tasks.  We were careful to document clear actions, expectations and timelines (minutes for team meeting 1)
 
-Having reached out to additional colleagues and forming a larger team, the initial draft was shared and a second meeting set up to answer team members questions, discuss progress and further ideas and realign tasks and deadlines (minutes for meeting team meeting 2}
+Having reached out to additional colleagues and therby forming a larger team, the initial draft was shared and a second meeting was set up to address team members questions and comments, discuss progress and realign tasks and deadlines (minutes for meeting team meeting 2}
 
 We met as a team for a third time to resolve any outstanding comments from the reviews and to finalise the document before submission.
 
-Additional learnings from the team task were captured in the reflectiive essay. 
+Additional learnings from the team task are captured in the reflectiive essay. 
 
 This activity aligns with learning outcomes 1,2 and  4
 
