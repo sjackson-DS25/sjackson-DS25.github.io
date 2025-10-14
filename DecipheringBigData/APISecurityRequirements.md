@@ -12,6 +12,8 @@ title: "Collaborative Discussion 1"
 
 Evaluate the security requirements of an API of your choice and write a brief security requirements specification which mitigates against any risks associated with the API for enabling data sharing, scraping and connectivity between a program code written in Python and any of the following file formats/management systems (XML, JSON and SQ.  This activity aligned with learning outomes 1, 2 and 4.  
 
+[Module Learning Objectives](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
+
 
 ### Process
 
