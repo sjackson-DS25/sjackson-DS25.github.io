@@ -19,6 +19,9 @@ title: "Normalisation Task"
 The database was built in SQL using the script below.  
 Referential integrity was then checked by running test queries to test that foreign key constraints and uniqueness constraints were correctly enforced.  
 
+The task was aligned with learning outcome 3
+[Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
+
 
 The original tables from the **normalisation task (Unit 7)** can be viewed here:  
 
