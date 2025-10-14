@@ -32,3 +32,10 @@ ISO (2022) ISO/IEC 27001:2022 – Information security management systems. Avail
 IT Governance Ltd. (2025) ISO 27001 and the GDPR. Available at: https://www.itgovernance.co.uk/gdpr-and-iso-27001 (Accessed: 8 October 2025).
 
 United Kingdom (2018) UK General Data Protection Regulation, Article 32. Available at: https://www.legislation.gov.uk/eur/2016/679/article/32 (Accessed: 18 September 2025).
+
+
+<hr>
+
+<a href="https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/DecipheringBigData/Landing%20page.md" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+
+<hr>
