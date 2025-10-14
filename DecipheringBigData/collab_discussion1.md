@@ -28,3 +28,10 @@ Balbir (2024). What role does cloud computing have with edge AI. Available at: h
 EmbedUR (2025). The Advantages & Risks of Edge AI: Why Businesses Can’t Ignore It. Available at: https://www.embedur.ai/the-advantages-risks-of-edge-ai-why-businesses-cant-ignore-it/ (Accessed: 10 September 2025).
 
 Palla, K. (2022) Fog computing: Security benefits and risks, The National CIO Review. Available at: https://nationalcioreview.com/articles-insights/technology/fog-computing-security-benefits-and-risks/ (Accessed: 10 September 2025).
+
+
+<hr>
+
+<a href="https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/DecipheringBigData/Landing%20page.md" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+
+<hr>
