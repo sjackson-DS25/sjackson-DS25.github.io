@@ -9,9 +9,17 @@ title: "Collaborative Discussion 1"
 
 ## The Data Collection Process (units 1-3)
 
-The discussion focused on the IoT with the remit to discuss the opportunities, limitations, risks and challenges associated with large-scale data collection.  
+The discussion focused on the IoT with the remit to discuss the opportunities, limitations, risks and challenges associated with large-scale data collection thereby aligning to module learning outcomes 1 and 2.
 
-In my initial post I discussed the rapid growth of IoT and how analytics of the resulting data creates opportunities for business optimisation across multiple fields.  I highlighted the importance of effective data wrangling and data privacy, and discussed how undertaking pre-processing within an edge or fog environment may address potential data privacy and latency issues.
+**Learning outcome 1.**  
+Identify and manage challenges, security issues and risks, limitations and opportunities in data wrangling. 
+
+**Learning outcome 2.**  
+Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
+
+## Summary of discussion post
+
+In my initial post I disce rapid growth of IoT and how analytics of the resulting data creates opportunities for business optimisation across multiple fields including improved and strealined marketing and customer experiences, healthcare, farming and smart homes and cities.  I highlighted the importance of effective data wrangling and data privacy, and discussed how undertaking pre-processing within an edge or fog environment may address potential data privacy and latency issues.
 
 My colleagues’ posts further highlighted the importance of optimising data processing and the potential risks of edge or fog computing.  Colleagues flagged the potential for pre-processing steps to filter out ‘anomalies’ that may include meaningful data.  Reflecting on this comment I additionally considered the potential for edge-based pre-processing to introduce bias, and further reading on this led to the suggetsion in my summary post that the issues of inappropriate filtering may be  mitigated at least in part by utilisation of a hybrid edge and cloud approach where raw data is forwarded to the cloud as required in order to refine AI models and improve edge device performance (Balbir, 2024). 
 
