@@ -199,3 +199,9 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 - It is not always straightforward to determine what the primary key(s) are and this will determine how the tables are separated
 - I reflected that human readability becomes harder as progress through the normal forms, but it is clear that normalisation reduces redundancy and helps prevent inconsistent data
 - Careful entry and linking of data is required — mistakes early on propagate through all normal forms.
+
+- <hr>
+
+<a href="https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/DecipheringBigData/Landing%20page.md" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+
+<hr>
