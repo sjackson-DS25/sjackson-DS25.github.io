@@ -7,7 +7,7 @@ title: "Web Scraping"
 
 ## Task
 
-The aim of the task was to scrape a website to identify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules.  THe task aligned with learning outcome 3.
+The aim of the task was to scrape a website to identify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules.  The task aligned with learning outcome 3.
 
 [Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
 
