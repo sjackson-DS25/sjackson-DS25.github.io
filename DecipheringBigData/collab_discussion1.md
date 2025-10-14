@@ -17,7 +17,7 @@ Identify and manage challenges, security issues and risks, limitations and oppor
 **Learning outcome 2.**  
 Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
 
-## Summary of discussion post
+## Summary of Discussion Post
 
 In my initial post I disce rapid growth of IoT and how analytics of the resulting data creates opportunities for business optimisation across multiple fields including improved and strealined marketing and customer experiences, healthcare, farming and smart homes and cities.  I highlighted the importance of effective data wrangling and data privacy, and discussed how undertaking pre-processing within an edge or fog environment may address potential data privacy and latency issues.
 
