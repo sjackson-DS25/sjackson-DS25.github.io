@@ -4,12 +4,11 @@ title: "Development Team Project - Meeting notes"
 ---
 
 
-# This page captures the meeting minutes from the team discussions whilst working on the Development Team Project: Project Report
-
-
 ## Comments and Learnings
 
-To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individuals schedules
+This page captures the meeting minutes from the team discussions whilst working on the Development Team Project: Project Report
+
+To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that, especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individual schedules
 
 We brainstormed inital ideas for the client profile and potential solutions via email and  then scheduled a meeting to refine these and assign tasks.  We were careful to document clear actions, expectations and timelines (minutes for team meeting 1)
 
@@ -17,13 +16,17 @@ Having reached out to additional colleagues and forming a larger team, the initi
 
 We met as a team for a third time to resolve any outstanding comments from the reviews and to finalise the document before submission.
 
+Additional learnings from the team task were captured in the reflectiive essay. 
+
 This activity aligns with learning outcomes 1,2 and  4
 
+[Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)   
 
+<br><br>
 
-Minutes for Team meeting 1.
+Minutes for Team Meeting 1.
 ------
-Meeting 19:30 CET 19th August 2025
+Meeting 19:30 CET 19th August 2025  
 Attendees Dean Carey; Sonya Jackson
 
 Attendees ideas and points for discussion were shared prior to the meeting; including plan for potential client profile, key considerations and options/comparisons of potential databases
@@ -37,20 +40,16 @@ Database model design; it was decided that  a relational database management sys
 
 Actions all: initial drafts will be shared during unit 4; 
 Next meeting (prior to 25th Aug) will be used to build on and refine drafts, and discuss next steps.  
+
+
+<br><br>
+
+Minutes for Team Meeting 2.
 ------
 
-As discussed, I will aim to draft my actions in the next two days and share with you for comment and we can decide at the end of this week if it's useful to have a teams call to discuss next steps?
-
-Cheers, 
-Sonya.  
-
-
-Minutes for Teem Meeting 2.
-
-Date 23rd August 2025
+Date 23rd August 2025  
 Attendees; Sonya Jackson, Dean Carey, Monique Mizzi
 
-Notes:
 
 The team discussed the current draft in line with the instructions for the task; It was proposed that we can build on the description of entities and database build; Action Sonya review and expand on entities; Dean add further comments/suggestions re data base build
 
