@@ -1,3 +1,9 @@
+---
+layout: minimal
+title: "Collaborative Discussion 1"
+---
+
+
 #  Unit 10 - API Security Requirements
 
 ---
