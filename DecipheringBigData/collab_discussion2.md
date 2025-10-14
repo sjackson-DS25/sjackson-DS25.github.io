@@ -9,7 +9,7 @@ title: "Collaborative Discussion 2"
 
 ## Comparing Compliance Laws (units 8-10)
 
-For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GSPD and I was less informed abnout the ICO I decided to focus on comparing UK GDPR to ICO.  This collaborative discussion aligned with learning objectives 1 and 2.
+For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GPDR, and as I have worked to a lesser extent with ICO, I decided to focus on comparing UK GDPR to ICO.  This collaborative discussion aligned with learning objectives 1 and 2.
 
 **Learning outcome 1.**  
 Identify and manage challenges, security issues and risks, limitations and opportunities in data wrangling. 
