@@ -9,22 +9,28 @@ title: "Collaborative Discussion 2"
 
 ## Comparing Compliance Laws (units 8-10)
 
-For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GSPD and I was less informed abnout the ICO I decided to conentrate on comparing UK GDPR to ICO.  
+For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GSPD and I was less informed abnout the ICO I decided to focus on comparing UK GDPR to ICO.  This collaborative discussion aligned with learning objectives 1 and 2.
+
+**Learning outcome 1.**  
+Identify and manage challenges, security issues and risks, limitations and opportunities in data wrangling. 
+
+**Learning outcome 2.**  
+Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
 
 
 
+My initial post discussed the UK GDPR and the role of the Information Commissioner’s Office (ICO) as an independent regulator for compliance. The post focused on requirements for securing of personal data, described the overarching requirement of UK GDPR that “appropriate technical and organisational measures to ensure a level of security that is appropriate to the risk are implemented” (United Kingdom, 2018, Art. 32 ) and described the specific checklist advice that ICO provides for businesses in order to ensure that the data security requirements are met.  
 
-
-My initial post discussed the UK GDPR and the role of the Information Commissioner’s Office (ICO) as an independent regulator for compliance. The post focused on requirements for securing of personal data, described the overarching requirement of UK GDPR that “appropriate technical and organisational measures to ensure a level of security that is appropriate to the risk are implemented” (United Kingdom, 2018, Art. 32 ) and described the specific checklist advice that ICO provides for businesses in order to ensure that the data security requirements are met.
+The initial post also highlighted security frameworks such as Cyber Essentials, a government backed cyber security certification scheme, for which accreditation enhances confidence that required security standards are met.  I additionally highlighted that security of personal data is not only ensured by effective cybersecurity methods, but also by implementing appropriate operational measures and securing of hardware.
 
 
 A colleague added the pertinent comment that in addition to the ICO guidelines, ISO/IEC 27001 compliance helps to provide assurance that data security measures are met.  ISO 27001 is an international standard for Information Security Management Systems (ISMS) and provides a framework for organisations to manage and meet data security requirements (ISO, 2022).
 
 
-Whilst not mandatory, as an international standard, ISO27001 certification provides confidence to clients that organisations have systems in place to manage risks related to data security. ISO 27001 compliments GDPR by detailing best practices to help achieve the operational and technical measures required to meet Article 32 of the GDPR through  risk mitigation, continuous improvement and clear accountability (IT Governance, 2025); Amtivo, 2025)
+Whilst not mandatory, as an international standard, ISO27001 certification provides confidence to clients that organisations have systems in place to manage risks related to data security. ISO 27001 compliments GDPR by detailing best practices to achieve the operational and technical measures required to meet Article 32 of the GDPR through risk mitigation, continuous improvement and clear accountability (IT Governance, 2025); Amtivo, 2025)
 
 
-In summary, adherence to ICO guidelines alongside ISO27001 compliance provides organisations and their clients with assurances that personal data is handled in a secure manner and that GDPR requirements in relation to data security are met.  It should be noted however that whilst these frameworks help simplify the GDPR compliance process, they are not sufficient to ensure that data protection regulations are fully met, specifically in relation to subject consents, retention and international movement  of personal data. 
+In summary, adherence to ICO guidelines alongside ISO27001 compliance provides organisations and their clients with assurances that personal data is handled in a secure manner and that GDPR requirements in relation to data security are met. It should be noted however that whilst these frameworks help alignment to the GDPR compliance requirments, they are not sufficient to ensure that data protection regulations are fully met, specifically in relation to subject consents, retention and international movement  of personal data. 
 
  
 
