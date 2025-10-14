@@ -2,7 +2,7 @@
 
 ---
 
-## Api security requirements
+## API security requirements
 
 ## Task
 
@@ -16,11 +16,11 @@ To initiate the work I developed a bullet point check list based on potential ri
 
 ### Learnings
 
-Working as part of a team provided an excellent opportunity to develop my learning through knowledge sharing with Andreea, whose background in computer science gave her a broader overview of technical solutions. Drawing on her expertise, I was able to identify areas for further development and undertook additional reading to deepen my understanding of SQL injection attacks, mutual TLS, and authentication solutions.
+Working as part of a team provided an excellent opportunity to develop my learning through knowledge sharing with Andreea, whose background in computer science gave her a broader overview of technical solutions. Drawing on her expertise, I was able to identify areas for further development and undertook additional reading to deepen my understanding of SQL injection attacks, mutual TLS, and authentication solutions. <br><br> <br><br>
 
 
 
-### Step 1. - List risks and mitigation strategies
+## Risks and mitigation strategies
 
 | **Risk Area** | **Security Requirements / Controls** |
 |----------------|--------------------------------------|
@@ -29,11 +29,11 @@ Working as part of a team provided an excellent opportunity to develop my learni
 | **Data Protection** | - Store data redundantly to maintain availability and minimise loss.<br>- Encrypt data in transit (using HTTPS) and at rest for sensitive information. |
 | **Database Security** | - Prevent blanket or unrestricted access to the database.<br>- Limit user access to only the specific data elements or tables required. |
 
+<br><br><br><br>
 
-### Step 2. - Final overview
+## Final overview
 
 API Security Requirements Specification - IBM QRadar DMS API
-
 
 ## 1. Introduction
 The IBM QRadar Device Support Module (DSM) API supports event log gathering and normalization across networks and security devices (IBM, 2025). Within a large data infrastructure such as a Security Information and Event Management (SIEM) solution, the DSM API delivers a connector between sources of data and analytic modules. Due to the DSM API’s handling of potentially sensitive operational data, it must be developed with a high level of confidentiality, integrity, and availability (NIST, 2023).
