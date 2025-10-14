@@ -8,8 +8,6 @@ title: "Collaborative Discussion 1"
 
 ---
 
-## API security requirements
-
 ### Task
 
 Evaluate the security requirements of an API of your choice and write a brief security requirements specification which mitigates against any risks associated with the API for enabling data sharing, scraping and connectivity between a program code written in Python and any of the following file formats/management systems (XML, JSON and SQ
