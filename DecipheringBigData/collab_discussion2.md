@@ -17,7 +17,7 @@ Identify and manage challenges, security issues and risks, limitations and oppor
 **Learning outcome 2.**  
 Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
 
-## Summary of discussion post
+## Summary of Discussion Post
 
 My initial post discussed the UK GDPR and the role of the Information Commissioner’s Office (ICO) as an independent regulator for compliance. The post focused on requirements for securing of personal data, described the overarching requirement of UK GDPR that “appropriate technical and organisational measures to ensure a level of security that is appropriate to the risk are implemented” (United Kingdom, 2018, Art. 32 ) and described the specific checklist advice that ICO provides for businesses in order to ensure that the data security requirements are met.  
 
