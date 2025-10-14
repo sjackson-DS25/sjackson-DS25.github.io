@@ -9,11 +9,12 @@ title: "Web Scraping"
 
 The aim of the task was to scrape a website to identify 'data scientist' jobs advertised and then parse this data in to a JSON file.  Web scraping was undertaken using Requests and Beautifulsoup4 modules.  THe task aligned with learning outcome 3.
 
+[Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
 
 
 ## Refelctions and Learnings
 
-Before web scraping, it is important to thoroughly examine the data to understand it's location, structure, variability and availability.  This ensures that the coding is written in a suitably comprehensive manner to obtain the required output.  Be aware of potential inconsistencies and variability in how the source data is presented and structured and as this can significantly impact results, leading to skewed conclusions or missing information.  For example, data scientist jobs may be advertised under "data science", "data scientist" or "bioinformatics" amongst others.  Therefore it is important to be cognisant of both the limitations of the scraping code, and the completeness of the resulting readout. 
+Before web scraping, it is important to thoroughly examine the source data to understand its location, structure, variability and availability.  This ensures that the coding is written in a suitably comprehensive manner to obtain the required output  It is also important to be aware of potential inconsistencies and variability in how the source data is presented and structured, as this can significantly impact results, leading to skewed conclusions or missing information.  For example, job posting for data scientists may be advertised under "data science", "data scientist" or "bioinformatics" amongst others.  Therefore it is essential to be cognisant of both the limitations of the scraping code, and the completeness of the resulting readout. 
 
 ## Process and Findings
 
