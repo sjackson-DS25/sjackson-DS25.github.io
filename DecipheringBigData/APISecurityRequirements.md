@@ -11,7 +11,8 @@ Evaluate the security requirements of an API of your choice and write a brief se
 
 ### Process
 
-This was a suggested team task and the work was undertaken together with Andreea Nicoara.  
+This was a suggested team task and the work was undertaken together with Andreea Nicoara. 
+
 To initiate the work I developed a bullet point check list based on potential risks and mitigations in a broad term.  Andreea reviewed, added to these and supplied technical detail and expertise based on her background experience.  
 
 ### Learnings
