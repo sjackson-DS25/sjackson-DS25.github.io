@@ -6,7 +6,13 @@ title: "Normalisation Task"
 # Unit 7 – Normalisation Task
 
 ## Task
-Normalise the below table to **3rd Normal Form (3NF)** showing each step of the process.
+Normalise the below (origiinal) table to **3rd Normal Form (3NF)** showing each step of the process.
+
+## Observations / Learnings
+
+- It is not always straightforward to determine what the primary key(s) are when new to the subject area; it is vital that this is done correctly to ensure that tables are indeed in the 3NF and that data redundacies are minimised
+- I reflected that human readability becomes harder as we progress through the normal forms, but it is clear that normalisation reduces redundancy and helps prevent inconsistent data
+- Careful entry and linking of data is required — mistakes early on can propagate through all normal forms.
 
 ---
 
@@ -194,11 +200,7 @@ Split Exam Boards and Teachers into separate tables (both may cover multiple sub
 
 ---
 
-## Observations / Learnings
 
-- It is not always straightforward to determine what the primary key(s) are and this will determine how the tables are separated
-- I reflected that human readability becomes harder as progress through the normal forms, but it is clear that normalisation reduces redundancy and helps prevent inconsistent data
-- Careful entry and linking of data is required — mistakes early on propagate through all normal forms.
 
 <hr>
 
