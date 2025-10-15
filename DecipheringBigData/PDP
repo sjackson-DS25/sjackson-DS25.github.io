@@ -1,11 +1,8 @@
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-<script>
-Papa.parse("data.csv", {
+Papa.parse("data/Professional_Skills_Matrix.csv", {
   download: true,
   header: true,
   complete: function(results) {
     console.log(results.data);
-    // You can then dynamically create a table with the data
   }
 });
-</script>
+
