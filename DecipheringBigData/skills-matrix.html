@@ -1,87 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Professional Skills Matrix</title>
-
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-
   <style>
     body {
-      font-family: Calibri, Arial, sans-serif;
-      background-color: #fff;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
       padding: 20px;
     }
 
     h1 {
       text-align: center;
       margin-bottom: 20px;
-      color: #217346; /* Excel green */
+      color: #217346;
     }
 
-    table {
-      border-collapse: collapse;
+    .sheet-container {
       width: 100%;
       max-width: 1000px;
       margin: 0 auto;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 6px;
+      overflow: hidden;
     }
 
-    th, td {
-      border: 1px solid #d0d7de;
-      padding: 6px 10px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #217346;
-      color: white;
-      font-weight: bold;
-      text-transform: capitalize;
-    }
-
-    tr:nth-child(even) td {
-      background-color: #f9f9f9;
-    }
-
-    tr:hover td {
-      background-color: #e2efda; /* soft Excel green highlight */
+    iframe {
+      width: 100%;
+      height: 600px; /* Adjust height as needed */
+      border: none;
     }
   </style>
 </head>
-
 <body>
+
   <h1>Professional Skills Matrix</h1>
-  <div id="table-container">Loading data...</div>
 
-  <script>
-    Papa.parse("https://sjackson-DS25.github.io/data/Professional_Skills_Matrix.csv", {
-      download: true,
-      header: true,
-      complete: function(results) {
-        const data = results.data;
-        const container = document.getElementById("table-container");
+  <div class="sheet-container">
+    <iframe 
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS9XgHz0E9E-n_fdTEjfOVnehFUM-iB2mtPP5aE_kBPWtGSRm1IcM48BvJB2926yA/pubhtml?widget=true&amp;headers=false">
+    </iframe>
+  </div>
 
-        if (data.length === 0) {
-          container.innerHTML = "<p>No data found in CSV file.</p>";
-          return;
-        }
-
-        let html = "<table><thead><tr>";
-        Object.keys(data[0]).forEach(key => html += `<th>${key}</th>`);
-        html += "</tr></thead><tbody>";
-
-        data.forEach(row => {
-          html += "<tr>";
-          Object.values(row).forEach(value => html += `<td>${value}</td>`);
-          html += "</tr>";
-        });
-
-        html += "</tbody></table>";
-        container.innerHTML = html;
-      }
-    });
-  </script>
 </body>
 </html>
