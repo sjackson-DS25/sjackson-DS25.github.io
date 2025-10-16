@@ -22,7 +22,7 @@ The task reinforced the importance of review of the raw dataset, and selection o
 
 <br><br>
 
-```
+```r
 # Review of CSV file shows that headings are coded.
 # Headings were scraped by the authors and uploaded as a separate file.
 
@@ -156,3 +156,13 @@ for header in data_rows[0]:  # iterate over headers in data
 # Codes in upper case were not picked up with web scraping for some reason; decide whether to drop or manually look up.
 # Consider implications of dropping data; do not just pick the simplest fix!
 # Updated headers list was available in book data.
+
+```
+ 
+
+
+<hr>
+
+<a href="https://sjackson-ds25.github.io/DecipheringBigData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+
+<hr>
