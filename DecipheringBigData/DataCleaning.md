@@ -1,3 +1,8 @@
+---
+layout: minimal
+title: "Collaborative Discussion 1"
+---
+
 ### Cleaning and Transformation - Units 4 and 5
 
 ## Task
@@ -17,7 +22,7 @@ The task reinforced the importance of review of the raw dataset, and selection o
 
 <br><br>
 
-```python
+```
 # Review of CSV file shows that headings are coded.
 # Headings were scraped by the authors and uploaded as a separate file.
 
