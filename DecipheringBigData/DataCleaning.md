@@ -3,9 +3,11 @@ layout: minimal
 title: "Collaborative Discussion 1"
 ---
 
-## Cleaning and Transformation - Units 4 and 5
+# Cleaning and Transformation - Units 4 and 5
 
-### Task
+<br>
+
+## Task
 Activities in unit 4 lecturecast were undertaken to understand and gain practical experience in basic data cleaning using python
 
 The script below demonstrates how to clean, inspect, and replace coded column headers  
@@ -17,7 +19,7 @@ It works through several data cleaning steps in python including:
 - Matching and replacing coded headers with descriptive labels
 - Managing data/header mismatches safely
 
-### Learnings and Reflections
+## Learnings and Reflections
 The task reinforced the importance of review of the raw dataset, and selection of appropriate techniques for data cleaning and for managing missing or potentially inaccurate data.  Data cleaning methods must be considered in context of both the dataset and the analysis objectives to ensure reliable and unbiased outputs.
 
 <br><br>
