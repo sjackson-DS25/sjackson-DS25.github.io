@@ -3,26 +3,19 @@ layout: minimal
 title: "Development Team Project - Meeting notes"
 ---
 
-# Development Team Project - Team Meeting Notes
+# Development Team Project / Executive Summary
 
 
 ### Comments and Learnings
 
-This page captures the meeting minutes from the team discussions whilst working on the Development Team Project: Project Report
+The Unit 6 development team project provided an opportunity to collaborate within a group to design and build a logical database for a client of our choice.  The team agreed to develop a DBMS for a global clinical trials organisation.   Working collaboratively enhanced development of ideas by bringing together diverse viewpoints, and through active discussions via email and in teem meetings (meeting minutes are shown below).
 
-To ensure good time managment, both myself and my colleague Dean Carey were proactive in forming a team prior to unit 6.  We recognnised  that especially with team tasks, it is important to account for extra time to enable all team members to have the opportunity to review, comment and contribute, and to enable sufficient opportunity to work round individual schedules
+When developing the executive summary in Unit 11, it became clear that that there were several DBMS solutions with varying opportunities, benefits and limitations, however the proposed solution from the project report was carried forward, as it was considered to best address the regulatory, privacy and data accuracy requirements.   
 
-We brainstormed inital ideas for the client profile and potential solutions via email, and held a scheduled meeting to refine the brainstorming document and to assign tasks.  We were careful to document clear actions, expectations and timelines (minutes for team meeting 1)
+Understanding primary business needs, whilst contributing expert knowledge of forward-thinking solutions is essential.  For example, within clinical research use of AI is growing but current systems are poorly designed to handle this.  Implementation of machine learning and AI within healthcare presents specific challenges, clinical data is often stored in siloed databases, and careful consideration is needed to  avoid potential biases that may disproportionally affect already disadvantaged groups.  (Kelly et al, 2019)
 
-Having reached out to additional colleagues and therby forming a larger team, the initial draft was shared and a second meeting was set up to address team members questions and comments, discuss progress and realign tasks and deadlines (minutes for meeting team meeting 2}
-
-We met as a team for a third time to resolve any outstanding comments from the reviews and to finalise the document before submission.
-
-Additional learnings from the team task are captured in the reflectiive essay. 
-
-This activity aligns with learning outcomes 1,2 and  4
-
-[Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)   
+### Reference
+Kelly, C.J., Karthikesalingam, A., Suleyman, M., Corrado, G. & King, D. (2019) Key challenges for delivering clinical impact with artificial intelligence. BMC Medicine, 17(1), p.195. doi:10.1186/s12916-019-1426-2
 
 <br><br>
 
