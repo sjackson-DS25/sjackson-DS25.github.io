@@ -6,6 +6,7 @@ title: "Collaborative Discussion 1"
 
 # Collaborative Discussion 1
 
+<br>
 
 ## The Data Collection Process (units 1-3)
 
