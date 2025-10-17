@@ -7,21 +7,22 @@ title: "Collaborative Discussion 1"
 #  Unit 10 - API Security Requirements
 
 ---
+<br>
 
-### Task
+## Task
 
 Evaluate the security requirements of an API of your choice and write a brief security requirements specification which mitigates against any risks associated with the API for enabling data sharing, scraping and connectivity between a program code written in Python and any of the following file formats/management systems (XML, JSON and SQ.  This activity aligned with learning outomes 1, 2 and 4.  
 
 [Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
 
 
-### Process
+## Process
 
 This was a suggested team task and the work was undertaken together with Andreea Nicoara. 
 
 To initiate the work I developed a bullet point check list based on potential risks and mitigations in a broad term.  Andreea reviewed, added to these and supplied technical detail and expertise based on her background experience.  
 
-### Learnings
+## Learnings
 
 Working as part of a team provided an excellent opportunity to develop my learning through knowledge sharing with Andreea, whose background in computer science gave her a broader overview of technical solutions. Drawing on her expertise, I was able to identify areas for further development and undertook additional reading to deepen my understanding of SQL injection attacks, mutual TLS, and authentication solutions. <br><br> <br><br>
 
@@ -38,7 +39,9 @@ Working as part of a team provided an excellent opportunity to develop my learni
 
 <br><br><br>
 
-## Final overview
+# Final overview
+
+<br>
 
 ## API Security Requirements Specification - IBM QRadar DMS API
 
