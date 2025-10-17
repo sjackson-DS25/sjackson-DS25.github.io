@@ -11,11 +11,7 @@ title: "Collaborative Discussion 1"
 
 The discussion focused on the IoT with the remit to discuss the opportunities, limitations, risks and challenges associated with large-scale data collection thereby aligning to module learning outcomes 1 and 2.
 
-**Learning outcome 1.**  
-Identify and manage challenges, security issues and risks, limitations and opportunities in data wrangling. 
-
-**Learning outcome 2.**  
-Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
+[Module Learning Outcomes](https://sjackson-ds25.github.io/DecipheringBigData/LearningObjectives.html)
 
 ## Summary of Discussion Post
 
