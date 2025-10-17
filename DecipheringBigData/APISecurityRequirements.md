@@ -86,10 +86,10 @@ The IBM QRadar Device Support Module (DSM) API supports event log gathering and 
 - The API must abide by semantic versioning and must provide at least 90 days’ warning prior to deprecation.  
 - CI/CD pipelines must conduct static and dynamic security testing on all releases (OWASP, 2023).
 
-## 4. Conclusion
+### 4. Conclusion
 The deployment of these specifications helps ensure that the QRadar DSM API is resilient against typical security threats while facilitating effective data parsing and correlation between interconnected devices. Through considerations of authentication, input validation, and logging, both technological robustness and regulatory adherence are addressed (NIST, 2023) and these measures help retain the confidentiality, integrity, and availability of information being processed within the extensive QRadar ecosystem (IBM, 2025).
 
-## References
+### References
 - IBM (2025) IBM QRadar SIEM API Documentation. Available at: https://www.ibm.com/docs/en/qradar-common?topic=api-endpoint-documentation-supported-versions  
 - OWASP (2023) OWASP API Security Top 10 – 2023. Available at: https://owasp.org/API-Security  
 - NIST (2023) NIST SP 800-204C: Implementation of DevSecOps for a Microservices-Based Application Using Service Mesh. National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.SP.800-204C
