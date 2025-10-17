@@ -5,6 +5,8 @@ title: "Normalisation Task"
 
 # Unit 7 – Normalisation Task
 
+<br>
+
 ## Task
 Normalise the below (origiinal) table to **3rd Normal Form (3NF)** showing each step of the process.
 
