@@ -11,7 +11,7 @@ title: "Collaborative Discussion 1"
 Activities in unit 4 lecturecast were undertaken to understand and gain practical experience in basic data cleaning using python
 
 The script below demonstrates how to clean, inspect, and replace coded column headers  
-with human-readable labels 
+with human-readable labels and was produced by working through chapter 7 of the Data Wrangling with Python textbook (Kazil and Jarmul, 2016)
 
 It works through several data cleaning steps in python including:
 - Reading CSV files 
@@ -21,6 +21,9 @@ It works through several data cleaning steps in python including:
 
 ## Learnings and Reflections
 The task reinforced the importance of review of the raw dataset, and selection of appropriate techniques for data cleaning and for managing missing or potentially inaccurate data.  Data cleaning methods must be considered in context of both the dataset and the analysis objectives to ensure reliable and unbiased outputs.
+
+### References
+Kazil, J, and Jarmul K. _Data Wrangling with Python : Tips and Tools to Make Your Life Easier_. 1st edn. Sebastopol, CA.  O'Reilly Media, Incorporated.  Available at: https://ebookcentral.proquest.com/lib/universityofessex-ebooks/detail.action?docID=4543981 (Accessed 09 Sept 2025)
 
 <br><br>
 
@@ -32,8 +35,8 @@ The task reinforced the importance of review of the raw dataset, and selection o
 
 from csv import DictReader
 
-with open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn.csv", 'r') as f1, \
-     open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn_headers.csv", 'r') as f2:
+with open(r"filepath for book examples\mn.csv", 'r') as f1, \
+     open(r"filepath for book examples\mn_headers.csv", 'r') as f2:
 
     data_rows = DictReader(f1)
     header_rows = DictReader(f2)
@@ -50,8 +53,8 @@ print(data_rows[:5])
 
 from csv import DictReader
 
-with open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn.csv", 'r') as f1, \
-     open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn_headers.csv", 'r') as f2:
+with open(r"filepath for book examples\mn.csv", 'r') as f1, \
+     open(r"C:filepath for book examples\mn_headers.cs", 'r') as f2:
 
     data_rdr = DictReader(f1)
     header_rdr = DictReader(f2)
@@ -66,8 +69,8 @@ print(header_rows[:5])
 # Needed to specify character encoding (utf-8) and newline to handle line endings correctly.
 from csv import DictReader
 
-with open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn.csv", 'r', newline='', encoding='utf-8') as f1, \
-     open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn_headers.csv", 'r', newline='', encoding='utf-8') as f2:
+with open(r"filepath for book examples\mn.csv", 'r', newline='', encoding='utf-8') as f1, \
+     open(r"C:filepath for book examples\mn_headers.csv", 'r', newline='', encoding='utf-8') as f2:
 
     data_rdr = DictReader(f1)
     header_rdr = DictReader(f2)
@@ -112,8 +115,8 @@ print(new_rows[0])
 # Use zipping method to zip list of header values with data values
 from csv import reader  # reader imports a list for each row instead of dict; zip needs lists
 
-with open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn.csv", 'r', newline='', encoding='utf-8') as f1, \
-     open(r"C:\Users\alexa\Sonya\Module 3\book examples\mn_headers.csv", 'r', newline='', encoding='utf-8') as f2:
+with open(r"filepath for book examples\mn.csv", 'r', newline='', encoding='utf-8') as f1, \
+     open(r"C:filepath for book examples\mn_headers.csv", 'r', newline='', encoding='utf-8') as f2:
 
     data_rdr = reader(f1)
     header_rdr = reader(f2)
