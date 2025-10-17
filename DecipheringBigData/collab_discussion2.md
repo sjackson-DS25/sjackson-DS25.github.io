@@ -11,11 +11,7 @@ title: "Collaborative Discussion 2"
 
 For this discussion we were tasked with commparing the rules of the GDPR - in particular, with relation to the securing of personal data rule, with either similar compliance laws within our country of residence, or with the ICO in the UK.  As EU GDPR is broadly aligned with UK GPDR, and as I have worked to a lesser extent with ICO, I decided to focus on comparing UK GDPR to ICO.  This collaborative discussion aligned with learning objectives 1 and 2.
 
-**Learning outcome 1.**  
-Identify and manage challenges, security issues and risks, limitations and opportunities in data wrangling. 
-
-**Learning outcome 2.**  
-Critically analyse data wrangling problems and determine appropriate methodologies, tools and techniques to solve them. 
+A peer response highlighted recent reform to The Data Use and Access Act 2025 (ICO, 2025). On undertaking further reading to understand the specific updates, I reflected on whether the introduction of broad consent will ultimately aid or hinder scientific research.  Whilst recognising the challenges posed by having to re-seek consent for future analysis, I also considered whether broader consent provisions may cause individuals to hesitate when providing initial consent, as it may be less clear how their data may be used in the future.   
 
 ## Summary of Discussion Post
 
