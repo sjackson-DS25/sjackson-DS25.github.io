@@ -6,6 +6,7 @@ title: "Collaborative Discussion 2"
 
 # Collaborative Discussion 2
 
+<br>
 
 ## Comparing Compliance Laws (units 8-10)
 
@@ -30,9 +31,9 @@ Whilst not mandatory, as an international standard, ISO27001 certification provi
 
 In summary, adherence to ICO guidelines alongside ISO27001 compliance provides organisations and their clients with assurances that personal data is handled in a secure manner and that GDPR requirements in relation to data security are met. It should be noted however that whilst these frameworks help alignment to the GDPR compliance requirments, they are not sufficient to ensure that data protection regulations are fully met, specifically in relation to subject consents, retention and international movement  of personal data. 
 
- 
+ <br>
 
-## References
+### References
 
 Amtivo. (2025) ISO 27001 and GDPR: How Do They Work Together? Available at: https://amtivo.com/uk/standards/iso-27001/insights/iso-27001-gdpr-working-together/ (Accessed: 8 October 2025).
 
