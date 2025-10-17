@@ -19,3 +19,10 @@
 - [Development Team Project and Executive Summary Notes- Units 6 and 11](https://sjackson-DS25.github.io/DecipheringBigData/TeamMeetingNotes.html)
 - [Professional Skills Matrix](https://sjackson-DS25.github.io/DecipheringBigData/skills-matrix.html)
 - [Impact on Professional Development and Action Plan](https://sjackson-DS25.github.io/DecipheringBigData/action-plan.html)
+
+
+<p style="text-align: center; margin-top: 2em;">
+  <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
+    ⬅️ Back to Home
+  </a>
+</p>
