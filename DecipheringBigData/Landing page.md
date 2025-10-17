@@ -16,6 +16,6 @@
 - [Data Build Task - Unit 7](https://sjackson-DS25.github.io/DecipheringBigData/Databuild_unit7.html)
 - [API Security Requirements - Unit 10](https://sjackson-DS25.github.io/DecipheringBigData/APISecurityRequirements.html)
 - [Backup Proceedure - Unit 11](https://sjackson-DS25.github.io/DecipheringBigData/BackupProceedure.html)
-- [Development Team project - Meeting Notes](https://sjackson-DS25.github.io/DecipheringBigData/TeamMeetingNotes.html)
+- [Development Team Project and Executive Summary Notes- Units 6 and 11](https://sjackson-DS25.github.io/DecipheringBigData/TeamMeetingNotes.html)
 - [Professional Skills Matrix](https://sjackson-DS25.github.io/DecipheringBigData/skills-matrix.html)
 - [Impact on Professional Development and Action Plan](https://sjackson-DS25.github.io/DecipheringBigData/action-plan.html)
