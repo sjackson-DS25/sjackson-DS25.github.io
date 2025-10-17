@@ -2,11 +2,12 @@
 layout: minimal
 title: "Development Team Project - Meeting notes"
 ---
+<br>
 
 # Development Team Project / Executive Summary
 
 
-### Comments and Learnings
+## Comments and Learnings
 
 The Unit 6 development team project provided an opportunity to collaborate within a group to design and build a logical database for a client of our choice.  The team agreed to develop a DBMS for a global clinical trials organisation.   Working collaboratively enhanced development of ideas by bringing together diverse viewpoints, and through active discussions via email and in teem meetings (meeting minutes are shown below).
 
@@ -19,7 +20,7 @@ Kelly, C.J., Karthikesalingam, A., Suleyman, M., Corrado, G. & King, D. (2019) K
 
 <br><br>
 
-Minutes for Team Meeting 1.
+## Minutes for Team Meeting 1.
 ------
 Meeting 19:30 CET 19th August 2025  
 Attendees Dean Carey; Sonya Jackson
@@ -39,7 +40,7 @@ Next meeting (prior to 25th Aug) will be used to build on and refine drafts, and
 
 <br><br>
 
-Minutes for Team Meeting 2.
+## Minutes for Team Meeting 2.
 ------
 
 Date 23rd August 2025  
