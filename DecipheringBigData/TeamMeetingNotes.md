@@ -9,7 +9,7 @@ title: "Development Team Project - Meeting notes"
 
 ## Comments and Learnings
 
-The Unit 6 development team project provided an opportunity to collaborate within a group to design and build a logical database for a client of our choice.  The team agreed to develop a DBMS for a global clinical trials organisation.   Working collaboratively enhanced development of ideas by bringing together diverse viewpoints, and through active discussions via email and in teem meetings (meeting minutes are shown below).
+The Unit 6 development team project provided an opportunity to collaborate within a group to design and build a logical database for a client of our choice.  The team agreed to develop a DBMS for a global clinical trials organisation.   Working collaboratively enhanced development of ideas by bringing together diverse viewpoints, and through active discussions via email and in team meetings (meeting minutes are shown below).
 
 When developing the executive summary in Unit 11, it became clear that that there were several DBMS solutions with varying opportunities, benefits and limitations, however the proposed solution from the project report was carried forward, as it was considered to best address the regulatory, privacy and data accuracy requirements.   
 
