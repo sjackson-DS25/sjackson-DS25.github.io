@@ -6,7 +6,7 @@ title: "Case Study: Exploring corporate tax rate variation in the USA"
 
 ## Task
 
-Complete exercises from Data Visualisation (chapter 1) and Workflow Basics (chapter 2) from Wickham et al.  
+Complete exercises from Data Visualisation (chapter 1) and Workflow Basics (chapter 2) from Wickham et al (2017).  
 <br><br>
 
 Example graphs that were generated are shown below along with full coding. 
