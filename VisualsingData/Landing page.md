@@ -9,7 +9,7 @@
 
 ## 📚 Activities
 
-- [Unit 1. Case Studt](https://sjackson-DS25.github.io/VisualsingData/Unit1.html)
+- [Unit 1. Case Study](https://sjackson-DS25.github.io/VisualsingData/Unit1.html)
 
 
 
