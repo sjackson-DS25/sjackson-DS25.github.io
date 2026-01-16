@@ -22,6 +22,15 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 <br><br>
 
+## Figure 1
+![Bar graph - penguins species by island](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
+
+##  Figure 2
+![Density plot - Penguin body mass ](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
+
+
+<br><br>
+
 # Chapter 1
 
 ```r
