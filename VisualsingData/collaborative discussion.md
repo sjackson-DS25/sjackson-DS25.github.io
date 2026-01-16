@@ -9,10 +9,13 @@ title: "Collaborative Discussion 1"
 <br>
 
 ## Report on Ryanair and Easyjet Websites:  Units 2-4
+<br><br>
 
 Based on Ryanair and EasyJet websites this discussion involved writing a omparative report in a table format, describing the attributes, data representation (marks and channels), colour schema, limitations and strengths of the sites and summarising with a personal view of the visualisations used.  
 
 [Module Learning Outcomes](https://sjackson-ds25.github.io/VisualisingData/LearningObjectives.html)
+
+<br><br>
 
 ## Summary of Discussion Post
 
@@ -32,7 +35,7 @@ The Ryan Air site has clear visualisation and customisation options that would b
 
 <hr>
 
-<a href="https://sjackson-ds25.github.io/DecipheringBigData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+<a href="https://sjackson-ds25.github.io/VisualisingData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Visualising Data</a>
 
 <hr>
 
