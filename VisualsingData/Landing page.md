@@ -9,7 +9,7 @@
 
 ## 📚 Activities
 
-- [Unit 1. Case Study](https://sjackson-DS25.github.io/VisualsingData/Unit%201.%20%20Case%20Study.html)
+- [Unit 1; Case Study](https://sjackson-DS25.github.io/VisualsingData/unit1casestudy.html)
 - [Collaborative Discussion 1; The Data Collection Process - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
 
 # Welcome to My Course
