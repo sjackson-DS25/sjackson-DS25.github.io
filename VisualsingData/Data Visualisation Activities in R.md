@@ -28,7 +28,8 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 
 ##  Figure 2
-![Density plot - Penguin body mass ](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/unit5fig1b.png))
+![Density plot of penguin body weight](https://raw.githubusercontent.com/YourUsername/VisualisingData/main/unit%203%2C%20ch%201%20density%20plot%20penguins.jpeg)
+
 
 
 <br><br>
