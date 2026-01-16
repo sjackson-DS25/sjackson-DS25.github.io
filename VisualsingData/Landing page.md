@@ -9,11 +9,7 @@
 
 ## 📚 Activities
 
-- [Unit 1. Case Studt](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
-
-
-- [Collaborative Discussion 1; The Data Collection Process - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
-- [Collaborative Discussion 2; Comparing Compliance Laws - Units 8-10](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion2.html)
+- [Unit 1. Case Studt](https://sjackson-DS25.github.io/VisualsingData/Unit1.html)
 
 
 
