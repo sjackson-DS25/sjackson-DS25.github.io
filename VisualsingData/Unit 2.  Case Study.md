@@ -15,19 +15,9 @@ Consider the following questions/ideas:
 - Why some companies pay less tax than others?
 - Any interesting discoveries.
 
+<br>
 
-## Learnings and Reflections
-Appropriate data visualtasion tools can simplify large data sets, enabling intuiuve exploration of data to reveal pattern trends and answer complex questions.
-
-Wwhen designing graphs, careful consideration of questions at hand and the decision that will be made from this information is imperitive in order to design the right visualisation.
-
-
-<a href="https://sjackson-ds25.github.io/DecipheringBigData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
-
-
-<br><br>
-
-# Response to questions.
+## Response 
 
 Whilst the average effective tax rate is 29.1%, it can be seen by hovering over the bubbles that make up the visualisation that tax rates vary considerably, with some companies paying no tax and others paying more than 60%.  Most companies pay less than 45%.
 
@@ -37,11 +27,23 @@ Larger companies may lower taxes by placing resources in countries with reduced 
 
 Despite this, with most industries a wide spread of effective tax rate is seen across different companies, and some companies have reported effective tax rates above 100%, the reasons behind these observations are not clear from the link provided. 
 
-
+<br>
 
 ### References
 Bostock, M et al. (2013) ‘Across U.S Companies, Tax Rates Vary Greatly’, The New York Times, 25 May. Available at: https://archive.nytimes.com/www.nytimes.com/interactive/2013/05/25/sunday-review/corporate-taxes.html (Accessed: 24 October 2025).
 
-<a href="https://sjackson-ds25.github.io/DecipheringBigData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Deciphering Big Data</a>
+<br><br>
+
+
+## Learnings and Reflections
+Appropriate data visualtasion tools can simplify large data sets, enabling intuiuve exploration of data to reveal pattern trends and answer complex questions.
+
+Wwhen designing graphs, careful consideration of questions at hand and the decision that will be made from this information is imperitive in order to design the right visualisation.
+
+
+<br><br>
+
+
+<a href="https://sjackson-ds25.github.io/VisualisingData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Visualising Data</a>
 
 
