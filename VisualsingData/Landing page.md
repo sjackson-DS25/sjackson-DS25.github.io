@@ -10,7 +10,11 @@
 ## 📚 Activities
 
 - [Unit 1. Case Study](https://sjackson-DS25.github.io/VisualsingData/Unit%201.%20%20Case%20Study.md
-)
+
+# Welcome to My Course
+
+Check out the first case study: [Unit 1 Case Study](VisualsingData/Unit%201.%20%20Case%20Study.html)
+
 
 
 
