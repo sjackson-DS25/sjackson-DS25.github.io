@@ -30,7 +30,7 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 ##  Figure 2.  Density plot illustrating distribution of body weight by species.
 
-![Density plot - Penguin body weight](https://sjackson-DS25.github.io/VisualsingData/density%20plot%20penguins.jpeg)
+![Density plot - Penguin body weight](https://sjackson-DS25.github.io/VisualsingData/fig2.jpeg)
 
 <br><br>
 
