@@ -22,15 +22,15 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 <br><br>
 
-## Figure 1
+## Figure 1.  Bar Graph illustrating penguin species found on each island.
 
 
 ![Bar graph - Penguins species per island](https://sjackson-DS25.github.io/VisualsingData/unit%203%20ch%201%20penguins%20species%20per%20island.jpeg)
 
 
-##  Figure 2
-![Density plot of penguin body weight](https://raw.githubusercontent.com/YourUsername/VisualisingData/main/unit%203%2C%20ch%201%20density%20plot%20penguins.jpeg)
+##  Figure 2.  Density plot illustrating distribution of body weight by species.
 
+![Density plot of penguin body weight](https://sjackson-DS25.github.io/VisualsingData/density%20plot%20penguins.jpeg)
 
 
 <br><br>
