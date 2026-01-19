@@ -40,53 +40,6 @@ flights |>
   rename(air_time_min = air_time) |>
   relocate(air_time_min)
 
-# %>% (control shift + M)
-
-#groups
-flights %>% group_by(month)
-
-#summarise
-flights %>% 
-  group_by(month) %>%
-  summarize(
-    avg_delay = mean(dep_delay)
-  )
-# all columns were NA; this is due to some missing (NA ) data
-  
-flights %>% 
-  group_by(month) %>%
-  summarize(
-    avg_delay = mean(dep_delay, na.rm = TRUE))
-
-#If want to know number of rows in each group:
-
-flights %>%  
-  group_by(month) %>% 
-  summarise(delay = mean(dep_delay, na.rm = TRUE), n =n())
-
-flights %>% 
-  group_by(dest) %>% 
-  slice_max(arr_delay, n =1 ) %>% 
-  relocate(dest) # note 108 results and only 105 desitnations - tied results are kept
-#can prvent this using with_ties = FALSE
-
-#group with multiple variables
-daily <- flights %>% 
-  group_by(year, month, day)
-daily
-
-# ungrouping
-daily |> 
-  ungroup()
-
-# using .by
-flights %>% 
-  summarise(delay = mean(dep_delay, na.rm = TRUE), 
-  n = n(),
-  .by = c(origin, dest))
-
-#Exercises
-
 # Which carrier has the worst average delays? - answer frontier airlines
 
 flights %>% 
@@ -108,7 +61,7 @@ flights %>%
   relocate(dest)
 
  #How do delays vary over the course of the day. Illustrate your answer with a plot.
-library(ggplot2)
+library(ggplot2)  - see figure 1. 
 
 delay_by_hour <- flights %>%
   group_by(hour) %>% 
