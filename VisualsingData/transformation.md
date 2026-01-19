@@ -1,4 +1,4 @@
-# _config.yml
+
 markdown: kramdown
 
 ---
