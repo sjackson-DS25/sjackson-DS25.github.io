@@ -1,5 +1,23 @@
+---
+layout: minimal
+title: "Data transformation in R"
+---
+
+
+## Task
+
+Complete exercises from Data Transformation in R (chapter 3) from Wickham et al (2017).  
+<br><br>
+
+### References
+Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and model data*. Sebastopol, CA: O’Reilly Media.
+
+<br><br>
+
 
 #exercises
+```r
+
 
 flights |> select(dep_time, sched_dep_time, dep_delay)
 #dep_delay will be dep_time - sched_dep_time
@@ -175,4 +193,11 @@ df |>
 df |>
   group_by(y, z) |>
   mutate(mean_x = mean(x))
+
+```
+
+
+
+<a href="https://sjackson-ds25.github.io/VisualsingData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Visualising Data</a>
+
 
