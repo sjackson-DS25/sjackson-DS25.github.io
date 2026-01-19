@@ -6,38 +6,34 @@ title: "Classification methods"
 
 ## Task
 
----
-layout: minimal
-title: "Case Study: Exploring corporate tax rate variation in the USA"
----
-
-
-## Task
-
 Carry out the lab activities in the pages given below from the An Introduction to Statistical Learning with Applications in R textbook:
 
 4.7 Lab: Classification Methods (Pages 171 – 177) - The Stock Market Data
-8.3 Lab: Decision Trees (Pages 353 – 357) - Logistic Regression
+8.3 Lab: Decision Trees (Pages 353 – 357) 
 
-<br><br>
+<br>
 
 Example graphs/data that were generated are shown below along with full coding. 
 
+<br><br>
+
 ### References
-Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and model data*. Sebastopol, CA: O’Reilly Media.
+James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Statistical Learning: with Applications in R. 2nd ed. Springer, New York. doi:10.1007/978-1-0716-1418-1.
 
 <br><br>
 
+## Logistic Regression.
+
+>br>
 
 ## Figure 1.  Scatter plot of raw data (coding shown below)
 
 
-![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.jpeg)
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.png)
 
 
 <br><br>
 
-# Chapter 1
 
 ```r
 install.packages("ISLR2")
@@ -146,276 +142,162 @@ predict(glm.fits, newdata = data.frame(Lag1 = c(1.2, 1.5), Lag2 = c(1.1, -0.8)),
 
 ```
 
+## Decision Trees
+<br>
+
+## Figure 2.  Example of generated deecision tree
 
 
-<a href="https://sjackson-ds25.github.io/VisualsingData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Visualising Data</a>
-
-<br><br>
-
-Example graphs that were generated are shown below along with full coding. 
-
-### References
-Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and model data*. Sebastopol, CA: O’Reilly Media.
-
-<br><br>
-
-## Learnings and Reflections
-When aggregating data to make sure that not drawing assumptions based on a low number of data points, i.e some columns may have large amounts of missing data; it is important to explore the data before diving in to analysis. 
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.png)
 
 
 <br><br>
 
-## Figure 1.  Bar Graph illustrating penguin species found on each island.
-
-
-![Bar graph - Penguins species per island](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit%203%20ch%201%20penguins%20species%20per%20island.jpeg)
-
-
-
-##  Figure 2.  Density plot illustrating distribution of body weight by species.
-
-![Density plot - Penguin body weight](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/density.png)
-
-
-<br><br>
-
-# Chapter 1
 
 ```r
+install.packages("tree")
 
-# Install and load required packages
-install.packages("tidyverse")
-library(tidyverse)
+library(tree)
 
-install.packages("palmerpenguins")
-library(palmerpenguins)
+library(ISLR2)
+attach(Carseats)
+View(Carseats)
 
-install.packages("ggthemes")
-library(ggthemes)
+#going to convert sales (currently a continuous variable) to binary
 
-# View the dataset
-penguins
+High <- factor(ifelse(Sales <=8, "No", "Yes"))
 
-# Open interactive data viewer
-View(penguins)
+#then use data.frame() to merge High with rest of the Carseats data
+Carseats <- data.frame(Carseats, High)
 
-# Open help page for the dataset
-?penguins
+View(Carseats)
 
-# Create an empty plot (dataset only)
-ggplot(data = penguins)
+#fit classification tree using all variables except Sales
 
-# Map variables to axes
-ggplot(
-  data = penguins,
-  mapping = aes(x = flipper_length_mm, y = body_mass_g)
+tree.carseats <- tree(High ~ . -Sales, Carseats)
+
+#summary lists variables used as internal nodes in tree, no. of nodes and training (error) rate
+
+summary(tree.carseats) # see training error is 9%, 91% of observations correctly classified
+#low residual mean devience is better but cant be interpreted well in isolation, maybe good for comparing with refined(pruned) tree models
+
+#can graphically display the tree
+
+#plot to display tree; test to display leaf nodes; pretty to include category names for qualitative predictors
+
+plot(tree.carseats)
+text(tree.carseats, pretty = 0)
+
+#can get information on split criterion, number per brance, deviance etc as follows:
+tree.carseats
+
+# evaluate performance - need to estimate test error
+# split into training and test set
+
+#use predict() to evaluate performance on test data
+#argument type = class instructs R to return actual class prediction
+
+set.seed(2)
+train <- sample(1:nrow(Carseats), 200)
+Carseats.test <- Carseats[-train, ]
+High.test <- High[-train]
+tree.carseats <- tree(High ~ . - Sales, Carseats, subset = train)
+tree.pred <- predict(tree.carseats, Carseats.test, type = "class")
+table(tree.pred, High.test)
+
+# does pruning tree improve the results?
+#cv.tree performs cross validation
+#use Fun = prune.misclass to state that want misclassification to guide the CV process rather than default of deviance
+
+set.seed(7)
+cv.carseats <- cv.tree(tree.carseats, FUN = prune.misclass)
+names(cv.carseats)
+
+cv.carseats #size is number of terminal nodes for each tree considered
+#dev is corresponding error rate
+#value of the cost-cost-complexity paramenter used (k)
+
+#error rate is a function of size and k
+par(mfrow = c (1,2))
+plot(cv.carseats$size, cv.carseats$dev, type = "b")
+plot(cv.carseats$k, cv.carseats$dev, type = "b")
+
+#now prune tree obtain 9 node tree using prune.misclass()
+prune.carseats <- prune.misclass(tree.carseats, best = 9)
+plot(prune.carseats)
+text(prune.carseats, pretty = 0)
+
+#test pruned tree on dataset
+tree.pred <- predict(prune.carseats, Carseats.test, type = "class")
+table(tree.pred, High.test) #77.5 test observations correctly classified
+
+
+# if increase value of best then obtain a larger pruned tree with lower classification accuracy
+
+prune.carseats <- prune.misclass(tree.carseats, best = 14)
+plot(prune.carseats)
+text(prune.carseats, pretty = 0)
+tree.pred <- predict(prune.carseats, Carseats.test, type = "class")
+table(tree.pred, High.test)
+
+
+
+
+#(could also use below to see which tree size gives lowest CV error)
+
+best_index <- which.min(cv.carseats$dev)
+best_index
+
+# Exact values
+cv.carseats$size[best_index]  # tree size with lowest deviance
+cv.carseats$k[best_index]     # corresponding cost-complexity parameter k
+cv.carseats$dev[best_index]   # the minimum deviance itself
+
+#or put in a table
+data.frame(
+  size = cv.carseats$size[best_index],
+  k    = cv.carseats$k[best_index],
+  dev  = cv.carseats$dev[best_index]
 )
 
-# Add points
-ggplot(
-  data = penguins,
-  mapping = aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point()
 
-# Colour by species
-ggplot(
-  data = penguins,
-  mapping = aes(
-    x = flipper_length_mm,
-    y = body_mass_g,
-    colour = species
-  )
-) +
-  geom_point()
+# if increase value of best then obtain a larger pruned tree with lower classification accuracy
 
-# Add line of best fit (linear model)
-ggplot(
-  data = penguins,
-  aes(
-    x = flipper_length_mm,
-    y = body_mass_g,
-    colour = species
-  )
-) +
-  geom_point() +
-  geom_smooth(method = "lm")
 
-# Single trend line (global vs local aesthetics)
-ggplot(
-  data = penguins,
-  aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point(aes(colour = species)) +
-  geom_smooth(method = "lm")
+# 8.3.2 regression tree
+attach(Boston)
+set.seed(1)
+train <- sample(1:nrow(Boston), nrow(Boston) / 2)
+tree.Boston <- tree(medv ~., Boston, subset = train)
+summary(tree.Boston)
 
-# Add shapes for each species
-ggplot(
-  data = penguins,
-  aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point(aes(colour = species, shape = species)) +
-  geom_smooth(method = "lm")
+#plot tree
+plot(tree.Boston)
+text(tree.Boston, pretty = 0)
 
-# Add labels and colour-blind friendly palette
-ggplot(
-  data = penguins,
-  aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point(aes(colour = species, shape = species)) +
-  geom_smooth(method = "lm") +
-  labs(
-    title = "Body mass vs flipper length",
-    subtitle = "Adelie, Chinstrap, and Gentoo penguins",
-    x = "Flipper length (mm)",
-    y = "Body mass (g)",
-    colour = "Species",
-    shape = "Species"
-  ) +
-  scale_color_colorblind()
+#see if pruning the tree will improve performance
+cv.boston <- cv.tree(tree.Boston)
+plot(cv.boston$size, cv.boston$dev, type="b")
 
-# Dataset dimensions
-nrow(penguins)
-ncol(penguins)
-dim(penguins)
+#most complex tree is selected by cross validation, but can test a pruned tree
 
-# Scatterplot of bill length vs bill depth
-ggplot(
-  data = penguins,
-  aes(x = bill_length_mm, y = bill_depth_mm)
-) +
-  geom_point()
+prune.boston <- prune.tree(tree.Boston, best = 5)
+plot(prune.boston)
+text(prune.boston, pretty = 0)
+                  
+#use unpruned tree to make predictions on test set
+yhat <- predict(tree.Boston, newdata = Boston[-train, ])
+boston.test <- Boston[-train, "medv"]
+plot(yhat, boston.test)
+abline(0, 1)
+mean((yhat - boston.test)^2)
 
-# Scatterplot by species
-ggplot(
-  data = penguins,
-  aes(x = species, y = bill_depth_mm)
-) +
-  geom_point()
+# MSE is 35.29, square root of MSE is 5.941 indicating the model leads to predictions on ave within 
+#  $5.941 of true median value
 
-# Handle missing values
-ggplot(
-  data = penguins,
-  aes(x = species, y = bill_depth_mm)
-) +
-  geom_point(na.rm = TRUE)
-
-# Add caption
-ggplot(
-  data = penguins,
-  aes(x = species, y = bill_depth_mm)
-) +
-  geom_point(na.rm = TRUE) +
-  labs(title = "Data from the palmerpenguins package")
-
-# Histogram
-ggplot(penguins, aes(x = body_mass_g)) +
-  geom_histogram(binwidth = 200)
-
-# Density plot
-ggplot(penguins, aes(x = body_mass_g)) +
-  geom_density()
-
-# Boxplot
-ggplot(
-  penguins,
-  aes(x = species, y = body_mass_g)
-) +
-  geom_boxplot()
-
-# Stacked bar chart
-ggplot(
-  penguins,
-  aes(x = island, fill = species)
-) +
-  geom_bar()
-
-# Relative frequency
-ggplot(
-  penguins,
-  aes(x = island, fill = species)
-) +
-  geom_bar(position = "fill")
-
-# Faceting
-ggplot(
-  penguins,
-  aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point(aes(colour = species, shape = species)) +
-  facet_wrap(~island)
-
-# Save plot to disk
-ggplot(
-  penguins,
-  aes(x = flipper_length_mm, y = body_mass_g)
-) +
-  geom_point()
-
-ggsave("penguin-plot.png")
-
-# Save most recent plot
-ggplot(mpg, aes(x = class)) +
-  geom_bar()
-
-ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_point()
-
-ggsave("mpg-plot.png")
-
-# Help for saving files
-?ggsave
+# useful to add proportion labels at the leaves?
 
 ```
-
-# Chapter 2 Exercises
-
-```r
-
-this_is_a_really_long_name <- 2.5
-this_is_a_really_long_name
-seq(from = 1, to = 10)
-#can often omit names of first several aguements, i.e
-seq(1, 10)
-x <- "hello world"
-
-# Exercises
-#1. why does below code not work
-
-my_variable <- 10
-my_varıable
-
-#answer, typo in calling my_variable
-
-# 2 - correct below commands code
-#libary(todyverse)
-
-#ggplot(dTA = mpg) + 
-#  geom_point(maping = aes(x = displ y = hwy)) +
-#  geom_smooth(method = "lm)
-
-library(tidyverse)
-
-ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
-  geom_point() +
-  geom_smooth(method = "lm")
-
-# 3. Press Option+Shift+K/Alt+Shift+K. What happens ? How get to same place using menus?
-
-# this shows keyboard shortcut quick reference, also found under tool tab
-
-# 4. run below code, which plot is saved as mpg-plot.png and why?
-
-my_bar_plot <- ggplot(mpg, aes(x = class)) +
-  geom_bar()
-my_scatter_plot <- ggplot(mpg, aes(x = cty, y = hwy)) +
-  geom_point()
-ggsave(filename = "mpg-plot.png", plot = my_bar_plot)
-
-#it saves the bar plot, because this has been specified in the argument?
-```
-
-
 
 <a href="https://sjackson-ds25.github.io/VisualsingData/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Visualising Data</a>
 
