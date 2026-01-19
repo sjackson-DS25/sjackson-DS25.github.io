@@ -17,7 +17,8 @@
 - [Units 6. Classification methods](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/classification.html)
   
 
-VisualsingData/ReadingOrganisingand Writing Data in R.md
+![Density plot - Penguin body weight](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/density.png)
+
 
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
