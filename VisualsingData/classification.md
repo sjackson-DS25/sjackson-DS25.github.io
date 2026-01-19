@@ -32,7 +32,7 @@ Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and 
 ## Figure 1.  Scatter plot of raw data (coding shown below)
 
 
-![Bar graph - Penguins species per island](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit%203%20ch%201%20penguins%20species%20per%20island.jpeg)
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.jpeg)
 
 
 <br><br>
