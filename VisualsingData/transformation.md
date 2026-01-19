@@ -1,4 +1,3 @@
-
 ---
 layout: minimal
 title: "Reading, Organising and Tidying Data in R"
