@@ -22,20 +22,19 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 
 <br><br>
 
-## Logistic Regression.
-
->br>
 
 ## Figure 1.  Principal component analysis
 
 
-![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.png)
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/pcanalysis.png)
 
 ## Figure 2. Cumulative proportion of variance explained
 
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/propvar.png)
 
 <br><br>
 
+## PCA 
 
 ```r
 states <- row.names(USArrests)
@@ -107,10 +106,21 @@ Xna <- X
 index.na <- cbind(ina, inb)
 Xna[index.na] <- NA
 
-#pg 537 onwards too confusing. 
+```
 
-#Clustering pgs 538-547
+<br>
 
+## K Means Clustering
+
+<br>
+
+## Figure 3.  K-means clustering results
+
+
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/kmeans.png)
+
+
+```r
 set.seed(2)
 x <- matrix(rnorm(50 * 2), ncol = 2) #make 2 clusters with a mean shift
 x[1:25, 1] <- x[1:25, 1] + 3
@@ -123,7 +133,7 @@ km.out <- kmeans(x, 2, nstart = 20)
 # cluster assignment of each of the 50 observation observed:
 km.out$cluster
 
-#plot data
+#plot data . Figure 3
 
 par(mfrow = c(1,2))
 plot(x, col = (km.out$cluster + 1), 
@@ -146,6 +156,22 @@ km.out <- kmeans(x, 3, nstart = 20)
 km.out$tot.withinss # 97.97
 
 # want to minimise sum of squares - book recommends starting with nstart of 20 to 50
+
+```
+
+<br>
+
+## Hierarchical Clustering
+
+<br>
+
+## Figure 4.  Hierarchical clustering results 
+
+
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/hierarchical-clustering.png)
+
+
+```r
 
 # hierarchical clustering - hclust()
 
@@ -173,7 +199,7 @@ cutree(hc.single, 2)
 
 cutree(hc.single, 4)
 
-# to scale before clustering:
+# to scale before clustering: Figure 4
 xsc <- scale(x)
 plot(hclust(dist(xsc), method = "complete"),
      main = "Hierarchichal clustering with scaled features")
@@ -187,6 +213,16 @@ dd <- as.dist(1 - cor(t(x)))
 plot(hclust(dd, method = "complete"),
      main = "Complete linkage with correlation based distance", 
      xlab = "", sub = "")
+
+
+```
+
+<br>
+## PCA on tumour cell microarrays
+<br>
+
+
+```r
 
 # NC160 Data example, 12.5.4 - cancr cell line microarray data
 
