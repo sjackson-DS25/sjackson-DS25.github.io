@@ -14,6 +14,7 @@
 - [Units 3. Data Visualisation Activities in R](https://sjackson-DS25.github.io/VisualsingData/Data%20Visualisation%20Activities%20in%20R.html)
 - [Units 4. Reading, Organising and Writing Data with R](https://sjackson-DS25.github.io/VisualsingData/ReadingOrganisingand%20Writing%20Data%20in%20R.html)
 - [Units 5. Data Transformation and Anlaysis](https://sjackson-DS25.github.io/VisualsingData/Data_transformation.html)
+- [Units 6. Classification methods](https://sjackson-DS25.github.io/VisualsingData/classification.html)
   
 
 VisualsingData/ReadingOrganisingand Writing Data in R.md
