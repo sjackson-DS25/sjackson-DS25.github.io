@@ -15,7 +15,7 @@ Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and 
 <br><br>
 
 
-##  Figure 1.  Graph Generated from exercise, investigating how flight delays vary over the course of the day.
+##  Figure 1.  flight delay variation vary over the course of the day.
 Flights were grouped by hour of exoected departure and mean delay summarised before ploting using geom_line
 
 ![Density plot - Penguin body weight](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit5_ggplot2.png)
