@@ -15,7 +15,7 @@
 - [Units 4. Reading, Organising and Writing Data with R](https://sjackson-DS25.github.io/VisualsingData/ReadingOrganisingand%20Writing%20Data%20in%20R.html)
 - [Units 5. Data Transformation and Exploratoy Anlaysis](https://sjackson-DS25.github.io/VisualsingData/transformation.html)
 - [Units 6. Classification methods](https://sjackson-DS25.github.io/VisualsingData/classification.html)
-- [Units 6. Visualisations for UNsupervised Learning](https://sjackson-DS25.github.io/VisualsingData/unit7.html)  
+- [Units 7. Visualisations for UNsupervised Learning](https://sjackson-DS25.github.io/VisualsingData/unit7.html)  
 
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
