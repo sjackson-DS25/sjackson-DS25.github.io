@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: "Reading, Organising and Tidying Data in R"
+title: "Data TRansformation and Exploratory Analysis"
 ---
 
 
