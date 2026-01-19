@@ -148,7 +148,7 @@ predict(glm.fits, newdata = data.frame(Lag1 = c(1.2, 1.5), Lag2 = c(1.1, -0.8)),
 ## Figure 2.  Example of generated deecision tree
 
 
-![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.png)
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/decision_tree.png)
 
 
 <br><br>
