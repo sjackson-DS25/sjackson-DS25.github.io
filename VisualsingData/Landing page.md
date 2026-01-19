@@ -10,8 +10,9 @@
 ## 📚 Activities
 
 - [Unit 1.  Case Study: Exploring corporate tax variation](https://sjackson-DS25.github.io/VisualsingData/unit1casestudy.html)
-- [Units 2-4. Collaborative Discussio: Ryanair and EasyJet](https://sjackson-DS25.github.io/VisualsingData/collaborativediscussion.html)
+- [Units 2-4. Collaborative Discussion: Ryanair and EasyJet](https://sjackson-DS25.github.io/VisualsingData/collaborativediscussion.html)
 - [Units 3. Data Visualisation Activities in R](https://sjackson-DS25.github.io/VisualsingData/Data%20Visualisation%20Activities%20in%20R.html)
+- [Units 4. Reading, Organising and Writing Data with R](https://sjackson-DS25.github.io/VisualsingData/ReadingOrganisingand%20Writing%20Data%20in%20R.html)
 - [Units 4. Reading, Organising and Writing Data with R](https://sjackson-DS25.github.io/VisualsingData/ReadingOrganisingand%20Writing%20Data%20in%20R.html)
 
 VisualsingData/ReadingOrganisingand Writing Data in R.md
