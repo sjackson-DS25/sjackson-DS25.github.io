@@ -4,7 +4,7 @@ title: "Visualisations for Unsupervised Learning"
 ---
 
 
-## Task - K-means clustering and hierarchial clustering
+## Task - PCA, K-means clustering and hierarchial clustering
 
 Carry out the lab activities in the pages given below from the An Introduction to Statistical Learning with Applications in R textbook:
 
@@ -22,6 +22,9 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 
 <br><br>
 
+## PCA 
+<br><br>
+
 
 ## Figure 1.  Principal component analysis
 
@@ -33,8 +36,6 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 ![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/propvar.png)
 
 <br><br>
-
-## PCA 
 
 ```r
 states <- row.names(USArrests)
