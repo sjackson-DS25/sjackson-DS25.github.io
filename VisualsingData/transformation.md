@@ -3,6 +3,7 @@ layout: minimal
 title: "Data TRansformation and Exploratory Analysis"
 ---
 
+# Data Transformation and Exploratory Analysis
 
 ## Task
 
@@ -19,9 +20,9 @@ Exercises, Chapter 5
 
 
 ##  Figure 1.  flight delay variation vary over the course of the day.
-Flights were grouped by hour of exoected departure and mean delay summarised before ploting using geom_line
+Flights were grouped by hour of expected departure and mean delay summarised before plot generated using geom_line
 
-![Density plot - Penguin body weight](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit5_ggplot2.png)
+![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit5_ggplot2.png)
 
 ```r
 
