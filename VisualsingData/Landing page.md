@@ -15,7 +15,8 @@
 - [Unit 4.  Reading, Organising and Writing Data with R](https://sjackson-DS25.github.io/VisualsingData/ReadingOrganisingand%20Writing%20Data%20in%20R.html)
 - [Unit 5.  Data Transformation and Exploratoy Anlaysis](https://sjackson-DS25.github.io/VisualsingData/transformation.html)
 - [Unit 6.  Classification Methods](https://sjackson-DS25.github.io/VisualsingData/classification.html)
-- [Unit 7.  Data Visualisation with Python](https://sjackson-DS25.github.io/VisualsingData/plotly.html)
+- [Unit 8.  Sunburst charts](https://sjackson-DS25.github.io/VisualsingData/wikiactivity.html)
+- [Unit 9.  Data Visualisation with Python](https://sjackson-DS25.github.io/VisualsingData/plotly.html)
 
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
