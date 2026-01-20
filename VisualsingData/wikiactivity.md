@@ -12,7 +12,7 @@ title: ""
 Consider  the strengths and limitations of interactive sunburst plots (implemented with R). Suggest an alternative representation approach you would have taken if there were no interactive facilities. 
 
 
-<br><br>
+<br>
 
 ## Sunburst charts
 
