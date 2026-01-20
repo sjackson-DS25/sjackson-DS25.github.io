@@ -1,13 +1,15 @@
 ---
 layout: minimal
-title: "Case Study: Exploring corporate tax rate variation in the USA"
+title: ""
 ---
 
+# Data Visualisation Activities in R
 
 ## Task
 
 Complete exercises from Data Visualisation (chapter 1) and Workflow Basics (chapter 2) from Wickham et al (2017).  
-<br><br>
+
+<br>
 
 Example graphs that were generated are shown below along with full coding. 
 
@@ -36,7 +38,7 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 <br><br>
 
-# Chapter 1
+## Chapter 1 Exercises
 
 ```r
 
@@ -225,7 +227,7 @@ ggsave("mpg-plot.png")
 
 ```
 
-# Chapter 2 Exercises
+## Chapter 2 Exercises
 
 ```r
 
