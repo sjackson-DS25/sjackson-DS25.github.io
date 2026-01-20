@@ -12,6 +12,10 @@ Work through the notebook to examine various methods in plotly to visualise bloo
 
 <br><br>
 
+## Figure 1.  Scatter graph examining correlation between systemic and dyastolic blood pressure measurements
+
+
+![Plotly](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/python.png)
 
 <br><br>
 
