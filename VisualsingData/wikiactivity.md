@@ -3,7 +3,7 @@ layout: minimal
 title: ""
 ---
 
-# Data Visualisation with Python - Plotly Charts
+# Data Visualisation - Plotly Charts
 
 ## Task
 
