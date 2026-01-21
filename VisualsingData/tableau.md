@@ -14,7 +14,9 @@ Complete the tutorial "Get started with Tableau Dashboard.  This tutorial worke 
 
 <br><br>
 
-The dashboard developed by working through this tutorial can be found at https://public.tableau.com/app/profile/sonya.jackson7881/viz/Regionalsalesandprofits_17660557167500/Regionalsalesandprofit
+The dashboard developed by working through this tutorial can be found at:
+[Regional sales and profit (Tableau)](https://public.tableau.com/app/profile/sonya.jackson7881/viz/Regionalsalesandprofits_17660557167500/Regionalsalesandprofit)
+
 
 
 <br><br>
