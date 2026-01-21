@@ -18,7 +18,10 @@
 - [Unit 7.  Visualising Dimensionality Reduction and Clustering Models](https://sjackson-DS25.github.io/VisualsingData/unit7.html)
 - [Unit 8.  Sunburst charts](https://sjackson-DS25.github.io/VisualsingData/wikiactivity.html)
 - [Unit 9.  Data Visualisation with Python](https://sjackson-DS25.github.io/VisualsingData/plotly.html)
-- [Units 10-11  Designing a dashboard/Getting started with Tableau](https://sjackson-DS25.github.io/VisualsingData/tableau.html)
+- [Units 10-11  Designing a Dashboard and Getting Started with Tableau](https://sjackson-DS25.github.io/VisualsingData/tableau.html)
+
+  <br>
+  
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
     ⬅️ Back to Home
