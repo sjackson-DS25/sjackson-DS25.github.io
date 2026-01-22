@@ -3,15 +3,16 @@ layout: minimal
 title: "Visualisations for Unsupervised Learning"
 ---
 
+# Visualisations for Unsupervised Learning
+
+<br>
 
 ## Task - PCA, K-means clustering and hierarchial clustering
 
 Carry out the lab activities in the pages given below from the An Introduction to Statistical Learning with Applications in R textbook:
 
-12.5 Lab: Unsupervised Learning - Page 532 -538.
-12.5.3 Clustering: K-Means Clustering and Hierarchical Clustering - Pages 538 – 547 (In this lab, we perform PCA on the USArrests data set, which is part of the base R package.)
-
-<br>
+12.5 Lab: Unsupervised Learning 
+12.5.3 Clustering: K-Means Clustering and Hierarchical Clustering 
 
 Example graphs/data that were generated are shown below along with full coding. 
 
@@ -22,14 +23,16 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 
 <br><br>
 
-## PCA 
-<br><br>
+# PCA 
 
+<br>
 
 ## Figure 1.  Principal component analysis
 
 
 ![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/pcanalysis.png)
+
+<br>
 
 ## Figure 2. Cumulative proportion of variance explained
 
@@ -109,9 +112,9 @@ Xna[index.na] <- NA
 
 ```
 
-<br>
+<br><br>
 
-## K Means Clustering
+# K Means Clustering
 
 <br>
 
@@ -160,9 +163,9 @@ km.out$tot.withinss # 97.97
 
 ```
 
-<br>
+<br><br>
 
-## Hierarchical Clustering
+# Hierarchical Clustering
 
 <br>
 
