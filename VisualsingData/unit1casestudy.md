@@ -5,6 +5,8 @@ title: "Case Study: Exploring Corporate tax rate variation in the USA"
 
 # Case Study: Exploring Corporate Tax Rate Variation in the USA
 
+<br>
+
 ## Task
 
 Explore the article by Mike Bostock titled 'Across U.S. Companies, Tax Rates Vary Greatly' from The New York Times, and consider the questions below.
