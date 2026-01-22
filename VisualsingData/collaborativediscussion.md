@@ -11,7 +11,6 @@ title: "Collaborative Discussion 1"
 
 ## Report on Ryanair and Easyjet Websites:  Units 2-4
 
-<br>
 
 Based on Ryanair and EasyJet websites this discussion involved writing a omparative report in a table format, describing the attributes, data representation (marks and channels), colour schema, limitations and strengths of the sites and summarising with a personal view of the visualisations used.  
 
