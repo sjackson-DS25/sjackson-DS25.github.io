@@ -16,8 +16,9 @@ Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and 
 <br><br>
 
 
-Exercises, Chapter 5
+## Exercises, Chapter 3
 
+<br>
 
 ##  Figure 1.  flight delay variation vary over the course of the day.
 Flights were grouped by hour of expected departure and mean delay summarised before plot generated using geom_line
@@ -134,7 +135,11 @@ df |>
   group_by(y, z) |>
   mutate(mean_x = mean(x))
 ```
-Exercises - chapter 10
+
+<br>
+
+## Exercises - chapter 10
+
 
 ```r
 #Exercises
