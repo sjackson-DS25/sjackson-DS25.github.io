@@ -22,11 +22,11 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 
 <br><br>
 
-## Logistic Regression.
+# Logistic Regression.
 
 <br>
 
-# Figure 1.  Scatter plot of raw data (coding shown below)
+## Figure 1.  Scatter plot of raw data (coding shown below)
 
 ![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/logregscatter.png)
 
@@ -142,11 +142,11 @@ predict(glm.fits, newdata = data.frame(Lag1 = c(1.2, 1.5), Lag2 = c(1.1, -0.8)),
 ```
 <br>
 
-## Decision Trees
+# Decision Trees
 
 <br>
 
-# Figure 2.  Example of generated deecision tree
+## Figure 2.  Example of generated deecision tree
 
 
 ![](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/decision_tree.png)
