@@ -5,6 +5,8 @@ title: ""
 
 # Data Visualisation Activities in R
 
+<br>
+
 ## Task
 
 Complete exercises from Data Visualisation (chapter 1) and Workflow Basics (chapter 2) from Wickham et al (2017).  
