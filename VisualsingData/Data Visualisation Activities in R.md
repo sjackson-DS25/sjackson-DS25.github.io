@@ -31,7 +31,7 @@ When aggregating data to make sure that not drawing assumptions based on a low n
 
 ![Bar graph - Penguins species per island](https://raw.githubusercontent.com/sjackson-DS25/sjackson-DS25.github.io/master/VisualsingData/unit%203%20ch%201%20penguins%20species%20per%20island.jpeg)
 
-
+<br>
 
 ##  Figure 2.  Density plot illustrating distribution of body weight by species.
 
