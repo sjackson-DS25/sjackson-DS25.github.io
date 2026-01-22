@@ -1,4 +1,4 @@
-##  📊 Visualising Data - Module Learning Outcomes
+##  📊 Visualising Data - Learning Outcomes
 
 - **Understand** key grammar, idioms, and conventions of data visualisation.  
 - **Identify and leverage** resources, tools, and techniques for visualisation tasks.  
