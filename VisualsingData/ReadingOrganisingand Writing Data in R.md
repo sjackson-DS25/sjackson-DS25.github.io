@@ -5,6 +5,8 @@ title: "Reading, Organising and Tidying Data in R"
 
 # Reading, Organising and Tidying Data in R
 
+<br>
+
 ## Task
 
 Complete exercises from Tidy Data (chapter 5) and Data Import (chapter 7) from Wickham et al (2017).  
@@ -14,9 +16,6 @@ Complete exercises from Tidy Data (chapter 5) and Data Import (chapter 7) from W
 Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and model data*. Sebastopol, CA: O’Reilly Media.
 
 <br><br>
-
-
-Exercises
 
 
 ```r
