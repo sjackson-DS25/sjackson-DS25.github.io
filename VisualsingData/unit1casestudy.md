@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Case Study: Exploring corporate tax rate variation in the USA"
+title: "Case Study: Exploring Corporate tax rate variation in the USA"
 ---
 
-# Case Study: Exploring corporate tax rate variation in the USA
+# Case Study: Exploring Corporate Tax Rate Variation in the USA
 
 ## Task
 
@@ -33,7 +33,7 @@ Despite this, with most industries a wide spread of effective tax rate is seen a
 ## Learnings and Reflections
 Appropriate data visualtasion tools can simplify large data sets, enabling intuiuve exploration of data to reveal pattern trends and answer complex questions.
 
-Wwhen designing graphs, careful consideration of questions at hand and the decision that will be made from this information is imperitive in order to design the right visualisation.
+When designing graphs, careful consideration of questions at hand and the decision that will be made from this information is imperitive in order to design the right visualisation.
 
 <br><br>
 
