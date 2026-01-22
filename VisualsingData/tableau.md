@@ -9,7 +9,7 @@ title: ""
 
 ## Task
 
-Complete the tutorial "Get started with Tableau Dashboard.  This tutorial worke through the features and functions of Tableau Desktop and covered connecting to data, building, presenting and sharing various views and how to apply key features.
+Complete the tutorial "Get started with Tableau Dashboard.  This tutorial worked through the features and functions of Tableau Desktop and covered connecting to data, building, presenting and sharing vviews, as well as how to apply key features.
 
 
 <br><br>
