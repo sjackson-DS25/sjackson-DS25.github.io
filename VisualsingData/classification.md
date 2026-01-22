@@ -3,19 +3,20 @@ layout: minimal
 title: "Classification methods"
 ---
 
+# Classification methods
+
+<br>
 
 ## Task
 
 Carry out the lab activities in the pages given below from the An Introduction to Statistical Learning with Applications in R textbook:
 
-4.7 Lab: Classification Methods (Pages 171 – 177) - The Stock Market Data
-8.3 Lab: Decision Trees (Pages 353 – 357) 
-
-<br>
+ - 4.7 Lab: Classification Methods (Pages 171 – 177) - The Stock Market Data
+ - 8.3 Lab: Decision Trees (Pages 353 – 357).
 
 Example graphs/data that were generated are shown below along with full coding. 
 
-<br><br>
+<br>
 
 ### References
 James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Statistical Learning: with Applications in R. 2nd ed. Springer, New York. doi:10.1007/978-1-0716-1418-1.
@@ -24,7 +25,7 @@ James, G., Witten, D., Hastie, T. & Tibshirani, R., 2021. An Introduction to Sta
 
 ## Logistic Regression.
 
->br>
+<br>
 
 ## Figure 1.  Scatter plot of raw data (coding shown below)
 
