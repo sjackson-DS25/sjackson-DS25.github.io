@@ -9,9 +9,9 @@ title: ""
 
 Complete exercises from Data Visualisation (chapter 1) and Workflow Basics (chapter 2) from Wickham et al (2017).  
 
-<br>
-
 Example graphs that were generated are shown below along with full coding. 
+
+<br>
 
 ### References
 Wickham, H. (2017) *R for data science: import, tidy, transform, visualise, and model data*. Sebastopol, CA: O’Reilly Media.
