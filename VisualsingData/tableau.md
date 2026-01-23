@@ -9,12 +9,12 @@ title: ""
 
 ## Task
 
-Complete the tutorial "Get started with Tableau Dashboard.  This tutorial worked through the features and functions of Tableau Desktop and covered connecting to data, building, presenting and sharing vviews, as well as how to apply key features.
+Complete the tutorial "Get started with Tableau Dashboard.  This tutorial worked through the features and functions of Tableau Desktop and covered connecting to data, building, presenting and sharing views, as well as how to apply key features.
 
 
 <br><br>
 
-The dashboard developed by working through this tutorial can be found at:
+The dashboard that I developed by working through this tutorial can be found at:
 [Regional sales and profit (Tableau)](https://public.tableau.com/app/profile/sonya.jackson7881/viz/Regionalsalesandprofits_17660557167500/Regionalsalesandprofit)
 
 
