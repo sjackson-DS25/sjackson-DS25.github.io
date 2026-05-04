@@ -6,10 +6,15 @@
 - **Design, develop and evaluate** solutions for processing datasets and solving complex problems in various environments using relevant programming paradigms
 - **Develop** effective teamwork skills in a virtual professional setting, adopting real life perspectives on team roles and organisation.
 
+- Articulate and evaluate the legal, social, ethical, and professional issues faced by machine learning professionals.
+- Understand the applicability and challenges associated with different datasets for machine learning algorithms.
+- Apply and critically appraise machine learning techniques to real-world problems
+- Develop and implement the skills required to be an effective member of a development team in a professional environment
+
 
 ## 📚 Activities
 
-- [Collaborative Discussion 1; The Data Collection Process - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
+- [Collaborative Discussion 1; The Fourth INdustrial Revolution - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
 
 
 <p style="text-align: center; margin-top: 2em;">
