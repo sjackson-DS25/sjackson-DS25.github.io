@@ -20,7 +20,7 @@
 *   [Module 2 Numerical Analysis](https://sjackson-DS25.github.io/module%202/Landing%20page.html)
 *   [Module 3 Deciphering Big Data](https://sjackson-DS25.github.io/DecipheringBigData/Landing%20page.html)
 *   [Module 4 Visualising Data](https://sjackson-DS25.github.io/VisualsingData/Landing%20page.html)
-*   [Module 5 Title](http://example.com/)
+*   [Module 5 Machine Learning](https://sjackson-DS25.github.io/MachineLearning/Landing%20page.html)
 
 ---
 
