@@ -15,6 +15,7 @@
 
 - [Collaborative Discussion 1; The Fourth Industrial Revolution - Units 1-3](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
 - [Seminar 2][Open Seminar 2 Exercise](projects/seminar2/seminar%202%20auto.html)
+- [Open Seminar 2 Exercise](projects/seminar2/seminar%202%20auto.html)
 
   
 <p style="text-align: center; margin-top: 2em;">
