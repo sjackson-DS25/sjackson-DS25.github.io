@@ -14,7 +14,7 @@
 ## 📚 Activities
 
 - [Collaborative Discussion 1; The Fourth Industrial Revolution - Units 1-3](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
-- [Seminar 2](https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/MachineLearning/projects/seminar2.ipynb)
+- [Seminar 2](https://github.com/sjackson-DS25/sjackson-DS25.github.io/blob/master/MachineLearning/projects/seminar2.html)
 
 - 
 <p style="text-align: center; margin-top: 2em;">
