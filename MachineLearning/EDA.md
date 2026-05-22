@@ -17,3 +17,5 @@ The seminar associated with this unit gave the opportunity better understand and
 The linked task utilised the 'auto' dataset to work through exercises to understand the tpye of data and the data types, review data for missing values and handle unexpected values appropriately, investigate data shapes and summary statistics, investigate correlation between variables, encode catagorical data and produce scatterplots.  
 
 The notebook and graphs produced are found here: 
+
+- [Seminar 2 exercise; EDA](seminar2.html)
