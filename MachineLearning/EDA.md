@@ -8,9 +8,10 @@ title: "Exploratory Data Analysis"
 
 ## Aims
 
-Understand concepts and undertake a range of EDA steps using python, in order to prepare data for machine learning
+Understand concepts unpinning EDA and undertake a range of EDA steps using python 
+<br><br>
 
-###
+## Activities undertaken
 
 The seminar associated with this unit gave the opportunity better understand and practice exploratory data analysis (EDA).  This is a crucial first step in the preperation of data for future machine learning, and ensures that the data inputs are appropiately cleaned and meaningful and that potential sources of error for the model are removed or are minimised as far as is possible, thereby increasing confidence in the model output.  
 
