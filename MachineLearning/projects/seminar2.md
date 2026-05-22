@@ -1,7 +1,6 @@
 ---
 title: "Seminar 2 - Coding Exercise"
 layout: page
-permalink: /seminar2/
 ---
 
 ```python
@@ -127,7 +126,7 @@ auto.describe()
       <td>3608.000000</td>
       <td>17.175000</td>
       <td>79.000000</td>
-      <td>2.000000</td>
+      <td>1.000000</td>
     </tr>
     <tr>
       <th>max</th>
@@ -169,9 +168,9 @@ auto.info()
      6   model year    398 non-null    int64  
      7   origin        398 non-null    int64  
      8   car name      398 non-null    str    
-    dtypes: float64(3), int64(4), str(2)
-    memory usage: 28.1 KB
-    
+     dtypes: float64(3), int64(4), str(2)
+     memory usage: 28.1 KB
+     
 
 
 ```python
@@ -374,7 +373,7 @@ auto.select_dtypes(include=["number"]).skew()
 
 
 ```python
-#Model year is approximately symmetric. The remaining variables are positively skewed to varying degrees, meaning most observations occur at lower values while a smaller number of large values create a right tail. 
+#Model year is approximately symmetric. The remaining variables are positively skewed to varying degrees, meaning most observations occur at lower values while a smaller number of large values create the rightward skew.
 #Horsepower is the most strongly right-skewed variable.
 ```
 
