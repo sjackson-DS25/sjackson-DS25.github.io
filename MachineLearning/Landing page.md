@@ -14,7 +14,7 @@
 
 ## 📚 Activities
 
-- [Collaborative Discussion 1; The Fourth Industrial Revolution - Units 1-3](https://sjackson-DS25.github.io/DecipheringBigData/collab_discussion1.html)
+- [Collaborative Discussion 1; The Fourth Industrial Revolution - Units 1-3](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion1.html)
 
 
 <p style="text-align: center; margin-top: 2em;">
