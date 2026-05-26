@@ -13,10 +13,10 @@
 
 ## 📚 Activities
 
-- [Units 1-3 Collaborative Discussion: The Fourth Industrial Revolution](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
-- [Seminar 2; EDA](seminar2.html)
-- [Unit 3; Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
-- [Unit 5; Jaccard Coefficient](Jaccard_coefficient.html)
+- [Units 1-3. Collaborative Discussion: The Fourth Industrial Revolution](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
+- [Unit 2. Exploratory Data Analysis](seminar2.html)
+- [Unit 3. Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
+- [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
 
 
   
