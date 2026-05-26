@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaccard Coefficient - Unit 5</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: #f7f9fc;
+      color: #222;
+    }
+
+    h1, h2, h3 {
+      color: #1d4ed8;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    code {
+      background: #eef2ff;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table th {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 12px;
+    }
+
+    table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .formula {
+      background: #eef4ff;
+      padding: 15px;
+      border-left: 5px solid #1d4ed8;
+      margin: 15px 0;
+      font-size: 1.1rem;
+    }
+
+    .result {
+      background: #ecfdf5;
+      border-left: 5px solid #10b981;
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+
+    .highlight {
+      color: #1d4ed8;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Jaccard Coefficient — Unit 5</h1>
+
+  <div class="card">
+    <h2>Overview</h2>
+
+    <p>
+      The <span class="highlight">Jaccard coefficient</span> is a measure of similarity
+      between two sets of unequal or asymmetric vectors.
+    </p>
+
+    <p>
+      Values range from <strong>0 to 1</strong>, where values closer to
+      <strong>1</strong> indicate greater similarity.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Jaccard Similarity Formula</h2>
+
+    <div class="formula">
+      Similarity =
+      <code>F11 / (F11 + F10 + F01)</code>
+    </div>
+
+    <ul>
+      <li><strong>F11</strong> = positive matches</li>
+      <li><strong>F10</strong> = positive in the first vector only</li>
+      <li><strong>F01</strong> = positive in the second vector only</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Jaccard Distance / Dissimilarity</h2>
+
+    <div class="formula">
+      D =
+      <code>(F10 + F01) / (F11 + F10 + F01)</code>
+    </div>
+
+    <p>
+      A higher Jaccard distance indicates that two records are
+      <strong>more dissimilar</strong>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Task</h2>
+
+    <p>
+      Calculate the Jaccard distance/dissimilarity between the possible pairs.
+    </p>
+
+    <p>
+      Gender is a binary variable of equal importance and is therefore not
+      considered in the calculation.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Step 1 — Convert Table to Positive/Negative Outputs</h2>
+
+    <p>
+      It is unclear what <code>A</code> means in the original table
+      (possibly ambiguous).
+    </p>
+
+    <p>For these calculations:</p>
+
+    <ul>
+      <li><strong>Y</strong> and <strong>P</strong> are treated as positive</li>
+      <li><strong>N</strong> and <strong>A</strong> are treated as negative</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Fever</th>
+          <th>Cough</th>
+          <th>Test-1</th>
+          <th>Test-2</th>
+          <th>Test-3</th>
+          <th>Test-4</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Jack</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>Mary</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>Jim</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Calculations</h2>
+
+    <h3>A) Jack and Mary</h3>
+
+    <div class="formula">
+      D = (0 + 1) / (2 + 0 + 1)
+      <br><br>
+      D = 1 / 3
+      <br><br>
+      D = 0.33
+    </div>
+
+    <h3>B) Jack and Jim</h3>
+
+    <div class="formula">
+      D = (1 + 1) / (1 + 2 + 0)
+      <br><br>
+      D = 2 / 3
+      <br><br>
+      D = 0.67
+    </div>
+
+    <h3>C) Mary and Jim</h3>
+
+    <div class="formula">
+      D = (2 + 1) / (1 + 2 + 1)
+      <br><br>
+      D = 3 / 4
+      <br><br>
+      D = 0.75
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Conclusion</h2>
+
+    <div class="result">
+      <p>
+        <strong>(Mary, Jim)</strong> has the greatest Jaccard distance.
+      </p>
+
+      <p>
+        Therefore, Mary and Jim are the
+        <strong>most dissimilar pair</strong>.
+      </p>
+
+      <p>
+        The pair <strong>(Mary, Jim)</strong> has a greater Jaccard distance
+        than <strong>(Jack, Mary)</strong> or
+        <strong>(Jack, Jim)</strong>.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    Jaccard Coefficient — Unit 5 | ePortfolio Page
+  </footer>
+
+</body>
+</html>
