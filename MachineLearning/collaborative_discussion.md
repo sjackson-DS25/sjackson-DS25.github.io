@@ -50,6 +50,8 @@ Ribeiro, A., 2026. HSCC warns AI-driven supply chains are outpacing healthcare c
 <br><br>
 
 
-<a href="https://sjackson-ds25.github.io/MachineLearning/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-rad[...]
+<hr>
+
+<a href="https://sjackson-ds25.github.io/Machinelearning/Landing%20page.html" style="display:inline-block; padding:8px 12px; background-color:#0366d6; color:white; text-decoration:none; border-radius:4px; margin-bottom:1em;">⬅️ Return to Machine Learning</a>
 
 <hr>
