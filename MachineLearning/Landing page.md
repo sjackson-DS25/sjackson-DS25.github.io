@@ -15,6 +15,7 @@
 
 - [Collaborative Discussion 1; The Fourth Industrial Revolution - Units 1-3](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
 - [Seminar 2 exercise; EDA](seminar2.html)
+- [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
 
 
   
