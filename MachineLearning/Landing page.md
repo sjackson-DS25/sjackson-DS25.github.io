@@ -17,7 +17,7 @@
 - [Unit 2. Exploratory Data Analysis](seminar2.html)
 - [Unit 3. Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
 - [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
-- [Unit 6. K-means Clustering](Unit_3_covariance_pearson_correlation.html)
+- [Unit 6. K-means Clustering](seminar_6_kmeans.html)
 
   
 <p style="text-align: center; margin-top: 2em;">
