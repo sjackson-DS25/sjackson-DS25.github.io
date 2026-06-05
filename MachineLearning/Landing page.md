@@ -18,7 +18,7 @@
 - [Unit 3. Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
 - [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
-- [Unit 7. Perceptron Activities](seminar_6_kmeans.html)
+- [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
 
   
 <p style="text-align: center; margin-top: 2em;">
