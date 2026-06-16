@@ -19,7 +19,7 @@
 - [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
 - [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
-
+- [Unit 8. Gradient Descent Cost Function](Unit08_Ex4_gradient_descent_cost_function.html)
   
 <p style="text-align: center; margin-top: 2em;">
   <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
