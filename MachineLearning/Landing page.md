@@ -17,7 +17,7 @@
 - [Unit 2. Exploratory Data Analysis](seminar2.html)
 - [Unit 3. Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
 - [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
-- [Unit 5. Clustering](Unit_5_clustering.html)
+- [Unit 5. Clustering](https://sjackson-DS25.github.io/MachineLearning/Unit_5_clustering.html)
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
 - [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
 - [Unit 8. Gradient Descent Cost Function](Unit08_Ex4_gradient_descent_cost_function.html)
