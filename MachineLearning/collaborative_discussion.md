@@ -12,11 +12,11 @@ title: "Collaborative Discussion 1"
 ## The 4th Industrial Revolution:  Units 1-3
 
 
-This collabirative discussion focused on the impact of industry 4.0 and/or 5.0 on a sector of interest, and examples of incidences where information system failures have had significant impact.  
+This collaborative discussion focused on the impact of industry 4.0 and/or 5.0 on a sector of interest, and examples of incidences where information system failures have had significant impact.  
 
 For the initial post I focused on the field of drug discovery and development, and discussed the benefits brought by the 4th industioal revoultion as well as the potential risks, highlighting specific examples that occured duting the covid pandemic.
 
-Through the review of colleagues posts, it became clear that similar challenges exist across multiple business sectors.  However I refelcted on the fact that where personal data and/or vulnerable groups are impacted, then the consequences of information system breaches or failues can move beyond operational and finacial impacts, to raise serious ethical concerns.  
+Through the review of colleagues posts, it became clear that similar challenges exist across multiple business sectors.  However I refelcted on the fact that where personal data and/or vulnerable groups are impacted, then the consequences of information system breaches or failures can move beyond operational and financial impacts, to raise serious ethical concerns.  
 
 On this page my summary post is shown, alongside relevent references.
 
