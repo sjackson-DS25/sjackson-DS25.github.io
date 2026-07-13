@@ -20,6 +20,7 @@
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
 - [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
 - [Unit 8. Gradient Descent Cost Function](Unit08_Ex4_gradient_descent_cost_function.html)
+- [Unit 9.  Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](Unit08_Ex4_gradient_descent_cost_function.html)
 - [Unit 11. Model Performance Measurement](Unit11_model_Performance.html)
   
 <p style="text-align: center; margin-top: 2em;">
