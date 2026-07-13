@@ -20,7 +20,7 @@
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
 - [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
 - [Unit 8. Gradient Descent Cost Function](Unit08_Ex4_gradient_descent_cost_function.html)
-- [Units 8-10. Collaborative Discussion 2: Legal and Ethical Views on ANN Applications](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion2.html)
+- [Units 8-10. Collaborative Discussion 2: Legal and Ethical Views on ANN Applications](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion_2.html)
 - [Unit 9.  Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](https://sjackson-DS25.github.io/MachineLearning/Unitt_9_CNN_reflections.html)
 - [Unit 11. Model Performance Measurement](Unit11_model_Performance.html) 
   
