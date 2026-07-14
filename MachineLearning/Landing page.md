@@ -2,10 +2,14 @@
 
 ## Learning Outcomes
 
-- Articulate the **legal, social, ethical, and professional issues** faced by machine learning professionals
-- Understand the **applicability and challenges associated with different datasets** for machine learning algorithms
-- **Apply and critically appraise machine learning techniques to real-world problems**, particularly where technical risk and uncertainty is involved
-- **Develop effective teamwork skills** in a virtual professional setting, adopting real-life perspectives on team roles and organization
+- Articulate the legal, social, ethical, and professional issues faced by machine learning professionals
+  
+- Understand the applicability and challenges associated with different datasets for machine learning algorithms
+  
+- Apply and critically appraise machine learning techniques to real-world problems, particularly where technical risk and uncertainty is involved
+  
+- Develop effective teamwork skills in a virtual professional setting, adopting real-life perspectives on team roles and organization
+  
 
 ## Overview
 
@@ -23,7 +27,10 @@ Exploratory Data Analysis, Jaccard Coefficient, Clustering, and K-Means Clusteri
 Perceptron, Gradient Descent, and Model Performance activities provided practical experience in developing machine learning models, highlighting the critical importance of appropriate model development and evaluation.
 
 **Ethical Reflections**  
-Unit 9 reflection on facial recognition technology and collaborative discussions on AI-generated content provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
+Many activities involved reflection on the ethical and societal impact of underlying datasets, machine learning methods and the application of these.  Two key examples are found in Unit 9, which reflects on facial recognition technology, and the collaborative discussion on AI-generated content, which provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
+
+**Teamwork Activities**
+Notes and reflections on the development team project are included for completeness
 
 ---
 
