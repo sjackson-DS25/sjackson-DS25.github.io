@@ -23,7 +23,7 @@ Animation 1 (https://shabal.in/visuals/kmeans/6.html) contained data points that
 
 Visualisation 2 (https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)  included the Voroni diagram which partitions the space into areas to illustrate which centroids the points fall closest to.   The points in this animation were uniformly spread.  In this case I found that self-selection of 4 initial centroids resulted in final clusters that were similar, with one in each quarter of the overall space (although the observation is based on a limited selection of initial centroid options). 
 
-Whilst the second visualisation appeared to be more consistent in terms of identifying similar clusters, this result may be less meaningful as the data is uniformly spread and clusters may not truly exist within the data.   As also highlighted by colleagues in the their posts, inappropriate utilisation of clustering to inform decision without sufficient the understanding of underlying methods and assumptions could introduce bias, risking inappropriate, misleading and ethically unsound outcomes. 
+Whilst the second visualisation appeared to be more consistent in terms of identifying similar clusters, this result may be less meaningful as the data is uniformly spread and clusters may not truly exist within the data. As also highlighted by colleagues within their posts, inappropriate utilisation of clustering to inform decision without sufficient the understanding of underlying methods and assumptions could introduce bias, risking inappropriate, misleading and ethically unsound outcomes. 
 
 <br>
 
