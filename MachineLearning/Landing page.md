@@ -47,7 +47,7 @@ In addtion to the Collaborative Discussions and Wiki Activity, notes and reflect
 - [Units 8-10. Collaborative Discussion 2: Legal and Ethical Views on ANN Applications](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion_2.html)
 - [Unit 9. Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](https://sjackson-DS25.github.io/MachineLearning/Unitt_9_CNN_reflections.html)
 - [Unit 11. Model Performance Measurement](Unit11_model_Performance.html)
-- [Development Team Project - Key Model Development Coding Contributions](EDA_cleaning_and_BNN_files.html)
+- [Development Team Project - Key Model Development Coding Contributions](Team.task.html)
 ---
 
 <p style="text-align: center; margin-top: 3em;">
