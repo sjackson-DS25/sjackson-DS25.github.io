@@ -1,14 +1,21 @@
 ##  📊 Module Learning Outcomes
 
-- **Identify and manage** key challenges, security concerns, risks, limitations and opportunities in data wrangling.
-- **Citically analyse and apply** appropriate methodologies, tools, and techniques to prepare, clean, explore, create, optimise, and evaluate large datasets.  
-- **Design, develop and evaluate** solutions for processing datasets and solving complex problems in various environments using relevant programming paradigms
-- **Develop** effective teamwork skills in a virtual professional setting, adopting real life perspectives on team roles and organisation.
+- Articulate the **legal, social, ethical, and professional issues** faced by machine learning professionals.
+- Understand the **applicability and challenges associated with different datasets** for the use of machine learning algorithms.  
+- **Apply and Critically Apraise machine learning techniques to real-world problems**, particularly where technical risk and uncertainty is involved.
+- **Develop effective teamwork skills** in a virtual professional setting, adopting real life perspectives on team roles and organisation.
 
-- Articulate and evaluate the legal, social, ethical, and professional issues faced by machine learning professionals.
-- Understand the applicability and challenges associated with different datasets for machine learning algorithms.
-- Apply and critically appraise machine learning techniques to real-world problems
-- Develop and implement the skills required to be an effective member of a development team in a professional environment
+<br>
+
+Examples of teamwork, formative and e-portfolio artifacts undertaken during the Machine Learning module are found in the **Activites** list below 
+
+**Collaborative Discussions** developed team work skills and provided real-world persepectives on the topic at hand.  Both discussion focused particularly on legal, social and ethical implications linked to use of AI.  
+
+**Exploratory Data Analysis**, **Jaccard Coefficient**, **Clustering** and **K-Means Clustering** tasks provided oppoptunities to deunderstand the importance of the underlying datasets, appropriate data preparation, analysis and interpretation, and how bias may be introduced within machine learning techniques. Reflection on these tasks focused on the potential challenges and the implications of inappropriate interpretation, or lack of recognition, of sources of bias.  
+
+**Perceptron**, **Gradient descent** and **Model Performance** activies provided hands-on practice in the development of  machine learning models, highlighting the importance of appropriate model development and hyperparamter tuning, and enabling critical appraisal of machine learning techniques and their potential real-world implications 
+
+Both the **Unit 9 Refelction** on facial recognition technology, and the **Collarative Discssion** on robo-writers gave the opportunity for deeper reflection on the impacts and ethical issues surrounding addoption of rapidly advancing machine learning techniques within society. 
 
 
 ## 📚 Activities
