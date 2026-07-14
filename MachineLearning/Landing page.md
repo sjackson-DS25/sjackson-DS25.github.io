@@ -14,6 +14,7 @@
 ## Overview
 
 Throughout this module, I have engaged in a variety of teamwork, formative, and e-portfolio activities to develop practical skills and deeper understanding of machine learning concepts and their ethical implications.
+Links to example activities are found below.  Learnings, observations and reflections are captured within individual activities. alongside practical work undertaken. 
 
 ### Key Activity Categories
 
@@ -27,10 +28,10 @@ Exploratory Data Analysis, Jaccard Coefficient, Clustering, and K-Means Clusteri
 Perceptron, Gradient Descent, and Model Performance activities provided practical experience in developing machine learning models, highlighting the critical importance of appropriate model development and evaluation.
 
 **Ethical Reflections**  
-Many activities involved reflection on the ethical and societal impact of underlying datasets, machine learning methods and the application of these.  Two key examples are found in Unit 9, which reflects on facial recognition technology, and the collaborative discussion on AI-generated content, which provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
+Many activities involved reflection on the ethical and societal impact of underlying datasets, machine learning methods and the application of these.  Two key examples are found in Unit 9, which reflects on facial recognition technology, and the collaborative discussion on AI-writers, which provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
 
 **Teamwork Activities**  
-In addtion to the Collaborative Discussions and Wiki Activity, notes and reflections on the development team project (Unit 6) are included for completeness. 
+In addtion to the collaborative discussions and Wiki activity, coding undertaken during the development team project (Unit 6) is included for completeness. 
 
 ---
 
