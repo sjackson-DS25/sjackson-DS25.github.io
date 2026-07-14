@@ -1,22 +1,31 @@
-##  📊 Module Learning Outcomes
+# 📊 Machine Learning Module
 
-- Articulate the **legal, social, ethical, and professional issues** faced by machine learning professionals.
-- Understand the **applicability and challenges associated with different datasets** for the use of machine learning algorithms.  
-- **Apply and Critically Apraise machine learning techniques to real-world problems**, particularly where technical risk and uncertainty is involved.
-- **Develop effective teamwork skills** in a virtual professional setting, adopting real life perspectives on team roles and organisation.
+## Learning Outcomes
 
-<br>
+- Articulate the **legal, social, ethical, and professional issues** faced by machine learning professionals
+- Understand the **applicability and challenges associated with different datasets** for machine learning algorithms
+- **Apply and critically appraise machine learning techniques to real-world problems**, particularly where technical risk and uncertainty is involved
+- **Develop effective teamwork skills** in a virtual professional setting, adopting real-life perspectives on team roles and organization
 
-Examples of teamwork, formative and e-portfolio artifacts undertaken during the Machine Learning module are found in the **Activites** list below 
+## Overview
 
-**Collaborative Discussions** developed team work skills and provided real-world persepectives on the topic at hand.  Both discussion focused particularly on legal, social and ethical implications linked to use of AI.  
+Throughout this module, I have engaged in a variety of teamwork, formative, and e-portfolio activities to develop practical skills and deeper understanding of machine learning concepts and their ethical implications.
 
-**Exploratory Data Analysis**, **Jaccard Coefficient**, **Clustering** and **K-Means Clustering** tasks provided oppoptunities to deunderstand the importance of the underlying datasets, appropriate data preparation, analysis and interpretation, and how bias may be introduced within machine learning techniques. Reflection on these tasks focused on the potential challenges and the implications of inappropriate interpretation, or lack of recognition, of sources of bias.  
+### Key Activity Categories
 
-**Perceptron**, **Gradient descent** and **Model Performance** activies provided hands-on practice in the development of  machine learning models, highlighting the importance of appropriate model development and hyperparamter tuning, and enabling critical appraisal of machine learning techniques and their potential real-world implications 
+**Collaborative Discussions**  
+Developed teamwork skills and gained real-world perspectives on contemporary machine learning topics, with particular focus on the legal, social, and ethical implications of emerging technologies.
 
-Both the **Unit 9 Refelction** on facial recognition technology, and the **Collarative Discssion** on robo-writers gave the opportunity for deeper reflection on the impacts and ethical issues surrounding addoption of rapidly advancing machine learning techniques within society. 
+**Data Analysis & Techniques**  
+Exploratory Data Analysis, Jaccard Coefficient, Clustering, and K-Means Clustering activities provided hands-on understanding of dataset importance, appropriate data selection, and fundamental clustering methodologies.
 
+**Model Development**  
+Perceptron, Gradient Descent, and Model Performance activities provided practical experience in developing machine learning models, highlighting the critical importance of appropriate model development and evaluation.
+
+**Ethical Reflections**  
+Unit 9 reflection on facial recognition technology and collaborative discussions on AI-generated content provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
+
+---
 
 ## 📚 Activities
 
@@ -29,11 +38,13 @@ Both the **Unit 9 Refelction** on facial recognition technology, and the **Colla
 - [Unit 7. Perceptron Activities](Unit07_Ex3_multi_layer_Perceptron.html)
 - [Unit 8. Gradient Descent Cost Function](Unit08_Ex4_gradient_descent_cost_function.html)
 - [Units 8-10. Collaborative Discussion 2: Legal and Ethical Views on ANN Applications](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion_2.html)
-- [Unit 9.  Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](https://sjackson-DS25.github.io/MachineLearning/Unitt_9_CNN_reflections.html)
-- [Unit 11. Model Performance Measurement](Unit11_model_Performance.html) 
-  
-<p style="text-align: center; margin-top: 2em;">
-  <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.5em 1em; border-radius: 5px; display: inline-block;">
+- [Unit 9. Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](https://sjackson-DS25.github.io/MachineLearning/Unitt_9_CNN_reflections.html)
+- [Unit 11. Model Performance Measurement](Unit11_model_Performance.html)
+
+---
+
+<p style="text-align: center; margin-top: 3em;">
+  <a href="../index.html" style="text-decoration: none; background: #f0f0f0; padding: 0.75em 1.5em; border-radius: 5px; display: inline-block; font-weight: bold;">
     ⬅️ Back to Home
   </a>
 </p>
