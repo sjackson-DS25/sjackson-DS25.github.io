@@ -17,7 +17,7 @@ Throughout this module, I have engaged in a variety of teamwork, formative, and 
 
 ### Key Activity Categories
 
-**Collaborative Discussions**  
+**Collaborative Discussions and Wiki Acitivity**  
 Developed teamwork skills and gained real-world perspectives on contemporary machine learning topics, with particular focus on the legal, social, and ethical implications of emerging technologies.
 
 **Data Analysis & Techniques**  
@@ -29,8 +29,8 @@ Perceptron, Gradient Descent, and Model Performance activities provided practica
 **Ethical Reflections**  
 Many activities involved reflection on the ethical and societal impact of underlying datasets, machine learning methods and the application of these.  Two key examples are found in Unit 9, which reflects on facial recognition technology, and the collaborative discussion on AI-generated content, which provided deeper insight into the real-world impacts and ethical considerations of modern machine learning applications.
 
-**Teamwork Activities**
-Notes and reflections on the development team project are included for completeness
+**Teamwork Activities**  
+In addtion to the Collaborative Discussions and Wiki Activity, notes and reflections on the development team project (Unit 6) are included for completeness. 
 
 ---
 
