@@ -39,7 +39,7 @@ In addtion to the collaborative discussions and Wiki activity, coding undertaken
 
 - [Units 1-3. Collaborative Discussion: The Fourth Industrial Revolution](https://sjackson-DS25.github.io/MachineLearning/collaborative_discussion.html)
 - [Unit 2. Exploratory Data Analysis](seminar2.html)
-- [Unit 3. Correlation and Regression](Unit_3_covariance_pearson_correlation.html)
+- [Unit 3. Correlation and Regression](Unit3.html)
 - [Unit 5. Jaccard Coefficient](Jaccard_coefficient.html)
 - [Unit 5. Clustering - Wiki Activity](https://sjackson-DS25.github.io/MachineLearning/Unit_5_clustering.html)
 - [Unit 6. K-means Clustering](seminar_6_kmeans.html)
