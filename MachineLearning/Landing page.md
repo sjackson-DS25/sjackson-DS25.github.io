@@ -49,7 +49,7 @@ In addtion to the collaborative discussions and Wiki activity, coding undertaken
 - [Unit 9. Reflections on Ethical and Social Implications of CNN Technology for Facial Recognition](https://sjackson-DS25.github.io/MachineLearning/Unitt_9_CNN_reflections.html)
 - [Unit 11. Model Performance Measurement](Unit11_model_Performance.html)
 - [Development Team Project - Coding Contributions](Team_code.html)
-- [Professional Skills Matrix](professional_skills_matrix.html)
+- [Professional Skills Matrix](skill_matrix.html)
 
 
 ---
