@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p><br></p>
 <p><strong>Results and Observations</strong></p>
-<p>The below modfel was run as per the instructions above, with alterations to the learning rate value and number of iterations.</p>
+<p>The below model was run as per the instructions above, with alterations to the learning rate value and number of iterations.</p>
 <p>100 iterations and learning rate = 0.08; cost = 0.004</p>
 <p>50 iterations and learning rate = 0.08; cost = 0.065</p>
 <p>50 iterations and learning rate = 0.04; cost = 0.247</p>
@@ -118,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>600 iterations and learning rate = 0.02; cost = 0.0002</p>
 <p>600 iterations and learning rate = 0.02; cost = 7.15 x 10*-8</p>
 <p>100 iterations and learning rate = 0.09; cost is huge!</p>
-<p>It was observed that when the learning rate was increased too far (0.09) that ‘m’ (slope) ans ‘b’ (intercept) fluctate massively between itterations indicating that the model is taking steps that are far too large and result in the minumum being missed - in this case by a large margin.</p>
+<p>It was observed that when the learning rate was increased too much (0.09) that ‘m’ (slope) and ‘b’ (intercept) fluctate massively between iterations indicating that the model is taking steps that are too large and result in the minumum being missed - in this case by a large margin.</p>
 <p>Decreasing iterations increases the cost which was as expected as there is less learning opportunity for the model.</p>
 <p>Decreasing learning rate whilst keeping iterations constant increases the cost. The steps taken are smaller and therefore it takes longer to reach the minimum</p>
 <p>Doubling the iterations and halving the learning rate results in the same overal cost. Each step was half the size so it would need twice as many ‘steps’ to reach the same point</p>
