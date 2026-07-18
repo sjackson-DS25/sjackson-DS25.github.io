@@ -8,11 +8,6 @@
 
 ---
 
-### [Professional](https://sjackson-DS25.github.io/Professional)
-
-### [Personal](https://github.com/crypto61/eportfolio/blob/master/Personal.md) 
-
-
 ### University of Essex Learning Experience
 
 *   [Induction Module](https://sjackson-ds25.github.io/induction)
